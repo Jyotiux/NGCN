@@ -1,0 +1,110 @@
+/* Navbar.module.css */
+
+.nav-elements {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--background);
+    border: 0px transparent;
+    margin: 0 ;
+    padding: 0 1rem;
+    position: relative;
+}
+
+.logo img {
+    height: 50px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.logo button{
+    margin: 0px;
+    padding: 0px;
+    border: 0px transparent;
+    background-color: var(--background);
+}
+.logo button:focus{
+    outline: none;
+}
+.nav-links button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+.nav-links {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.nav-links button {
+    border: 0px solid black;
+    border-radius: 1.5rem;
+    margin: 0rem;
+    padding: 0.25rem;
+}
+
+.nav-links p {
+    margin: 0;
+    font-weight: 500;
+    color: var(--secondary);
+    transition: color 0.2s;
+    padding: 0rem 0.1rem;
+}
+
+.nav-links button:hover {
+    background-image: linear-gradient(to top, var(--accent), var(--emphasis));
+}
+
+.nav-links button:active {
+    background-image: linear-gradient(to bottom, var(--accent), var(--emphasis));
+}
+
+.hamburger-menu {
+    display: none; /* Hidden on desktop */
+    font-size: 1.5rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+/* Responsive styles for mobile */
+@media (max-width: 768px) {
+    .nav-elements {
+        position: relative;
+        justify-content: center;
+    }
+
+.nav-links {
+    position: fixed;
+    top: 0px;
+    left: 0;
+    transform: translateX(-100%); /* Moves the element off-screen to the left */
+    height: 100%;
+    width: 200px;
+    background-color: var(--background);
+    padding-top: 3.5rem;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    transition: transform 0.5s ease-in-out;
+    overflow-x: hidden; 
+}
+
+    .nav-links.active {
+        transform: translateX(0);
+    }
+
+    .hamburger-menu {
+        display: block;
+        position: absolute;
+        top: 1rem;
+        left: 1rem;
+        z-index: 1500;
+    }
+}

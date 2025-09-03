@@ -1,68 +1,37 @@
+/* Import Google Fonts at the very top */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poppins:wght@400;700&family=Roboto:wght@400;700&family=Open+Sans:wght@400;700&display=swap');
+
+/* Define Global Color Variables */
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  --primary: #D5451B;
+  --secondary: #521C0D;
+  --accent: #FF9B45;
+  --emphasis: #FFC796;
+  --background: #F4E7E1;
+  --text: #000000;
+  --surface: #FFFFFF;
 }
-
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
-
+/* :root {
+  --primary-blue: #0077CC;
+  --light-blue: #00AEEF;
+  --sky-blue: #76DAFF;
+  --soft-blue: #EAF8FF;
+  --white: #FFFFFF;
+  --neutral-grey: #6B7280;
+} */
+/* Global Typography and Base Styles */
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  font-family: 'Roboto', 'Open Sans', sans-serif;
+  background-color: var(--soft-blue-background);
+  color: var(--neutral-grey);
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+p{
+  font-family: poppins, sans-serif;
 }
 
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Inter', 'Poppins', sans-serif;
+  color: var(--primary-blue);
 }
