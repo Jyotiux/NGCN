@@ -1,0 +1,49 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--background);
+}
+
+.logo{
+    position: relative; /* Ensure it respects the flexbox centering */
+    z-index: 2; /* Place it on top of the overlay */
+    max-width: 500px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4rem;
+    margin-bottom: 0.5rem;
+}
+.logo img{
+    width: 20rem;
+}
+
+.title h2{
+    font-size: 2rem;
+    color: var(--primary);
+}
+
+.titleButton{
+    margin-bottom: 1rem;
+}
+
+.titleButton button{
+    background-color: var(--primary);
+    margin: 0rem;
+    border-radius: 5rem;
+    border: 0px transparent;
+    padding: 0.25rem;
+}
+.titleButton button p{
+    color: var(--background);
+    font-size: 1.25rem;
+    padding: 0.5rem;
+    margin: 0px;
+}
+
+.titleButton button:hover{
+    background-color: var(--accent);
+}
