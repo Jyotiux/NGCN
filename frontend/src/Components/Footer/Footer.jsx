@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./footer.module.css";
+import styles from "./Footer.module.css";
 import { Link } from "react-router-dom";
 // Assuming you have similar Button and Input components
 // import Button1 from "../button1/button1";
