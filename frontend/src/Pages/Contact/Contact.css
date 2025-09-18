@@ -1,0 +1,227 @@
+/* Mobile-first responsive CSS for Contact page */
+/* Color palette variables for reference */
+:root { 
+    --color-primary: #D5451B;   /* Terracotta Orange */
+    --color-secondary: #521C0D;  /* Dark Brown */
+    --color-accent: #FF9B45;    /* Muted Yellow */
+    --color-emphasis: #FFC796;
+    --color-background: #F4E7E1; /* Soft Beige */
+    --color-text: #000000;
+    --color-surface: #FFFFFF;    /* White */
+}
+
+/* --- Base & Mobile First Styles --- */
+
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-primary);
+    background-image: linear-gradient(to left, var(--color-accent), var(--color-primary));
+    padding: 2rem 1rem; /* Adjusted padding for mobile */
+    text-align: center;
+}
+
+.title h1 {
+    font-size: 2.2rem; /* Adjusted font size for mobile */
+    font-weight: bold;
+    color: var(--color-surface);
+    margin: 2rem 0 0 0;
+}
+
+.title p {
+    font-size: 1rem; /* Adjusted font size for mobile */
+    color: var(--color-surface);
+    max-width: 90%;
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: column; /* Stack form and details vertically on mobile */
+    align-items: center;
+    padding: 1rem;
+    gap: 2rem; /* Creates space between the form and details sections */
+}
+
+/* Style the wrapper for the form */
+.contact {
+    width: 100%;
+    max-width: 650px;
+}
+
+.form, .details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--color-background);
+    padding: 1.5rem; /* Adjusted padding for mobile */
+    border-radius: 1rem;
+    box-shadow: 0 8px 24px rgba(82, 28, 13, 0.1);
+    width: 100%; /* Ensure it takes the full width of its parent */
+    box-sizing: border-box; /* Include padding in the width calculation */
+}
+
+.form h3, .details h3 {
+    font-size: 1.5rem; /* Adjusted font size for mobile */
+    font-weight: bold;
+    color: var(--color-secondary);
+}
+
+.form .elements {
+    font-size: 1rem;
+    margin: 0.75rem 0; /* Adjusted margin */
+}
+
+.form .elements p {
+    margin: 0.25rem 0rem;
+    color: var(--color-secondary);
+}
+
+.form .elements input,
+.form .elements textarea,
+.elements button {
+    font-family: inherit; /* Ensures consistent font with the rest of the page */
+    font-size: 1rem;
+    width: 100%; /* Make form elements take full width */
+    padding: 0.5rem;
+    box-sizing: border-box; /* Important for 100% width */
+}
+
+.form .elements input {
+    color: var(--color-secondary);
+    background-color: var(--color-surface);
+    border-radius: 5px;
+    border: 1px solid var(--color-accent);
+}
+
+.form .elements input::placeholder {
+    color: var(--color-accent);
+}
+
+.form .elements textarea {
+    border: 1px solid var(--color-accent);
+    min-height: 150px;
+    color: var(--color-secondary);
+    background-color: var(--color-surface);
+    border-radius: 5px;
+}
+
+.form .elements textarea::placeholder {
+    color: var(--color-accent);
+}
+
+.elements button {
+    color: var(--color-surface);
+    background-image: linear-gradient(to left, var(--color-accent), var(--color-primary));
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer; /* Add pointer cursor on hover */
+    padding: 0.75rem;
+}
+
+.elements button:focus {
+    outline: none;
+}
+
+.elements button:active {
+    background-image: linear-gradient(to right, var(--color-primary), var(--color-primary));
+}
+
+.details {
+    width: 100%; /* Ensure it takes full width of its container */
+    max-width: 650px;
+}
+
+.details h4 {
+    font-size: 1.1rem; /* Adjusted font size for mobile */
+    font-weight: bold;
+    color: var(--color-primary);
+}
+
+.detail-tiles {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem; /* Added more padding */
+    border-radius: 0.5rem;
+    margin: 1rem 0; /* Adjusted margin */
+    background-color: var(--color-surface);
+    box-shadow: 0 4px 12px rgba(82, 28, 13, 0.08); /* Softened shadow */
+}
+
+.detail-tiles h4 {
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px;
+    color: var(--color-secondary);
+}
+
+.detail-tiles p {
+    font-size: 0.9rem; /* Increased font size for readability */
+    color: var(--color-secondary);
+    margin: 0.2rem 0;
+    padding: 0px;
+}
+
+/* --- Social Icon Styles --- */
+.social-links {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1.5rem 1rem; /* Give them a bit more vertical space */
+}
+
+.social-links a {
+    font-size: 2rem; /* Make icons larger */
+    color: var(--color-secondary);
+    transition: transform 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+.social-links a:hover {
+    color: var(--color-primary);
+    transform: scale(1.1); /* Add a little pop on hover */
+}
+
+/* --- Desktop Styles --- */
+/* Applies when the screen is 992px or wider */
+@media screen and (min-width: 992px) {
+    .title {
+        padding: 2rem 0rem;
+    }
+
+    .title h1 {
+        font-size: 3rem; /* Restore larger font size */
+    }
+
+    .title p {
+        font-size: 1.1rem;
+        max-width: 75%;
+    }
+
+    .contact-container {
+        flex-direction: row; /* Place items side-by-side */
+        align-items: flex-start; /* Align to the top */
+        justify-content: center;
+        flex-wrap: wrap; /* Allow wrapping on medium-large screens */
+    }
+
+    .contact, .details {
+        flex: 1; /* Allow items to grow and share space */
+        margin: 0 1rem; /* Add horizontal margin for spacing */
+    }
+
+    .form, .details {
+        padding: 2rem; /* Restore larger padding */
+    }
+
+    .form h3, .details h3 {
+        font-size: 1.75rem; /* Restore larger font size */
+    }
+
+    .details h4 {
+        font-size: 1.25rem;
+    }
+}
