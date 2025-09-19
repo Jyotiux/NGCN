@@ -20,7 +20,7 @@ const Footer = () => {
           className={styles.logo}
         />
         <p>
-          Sanshi H2O is dedicated to providing pure, fresh, and revitalizing beverages to quench your thirst.
+          NGCN is a research group focused on advancing the state-of-the-art in computing and networking technologies.
         </p>
       </div>
 
@@ -69,7 +69,7 @@ const Footer = () => {
       </div>
 
       <div className={styles.copyright}>
-        <p>Copyright © 2025 Sanshi H2O. All Rights Reserved.</p>
+        <p>Copyright © 2022 NGCN. All Rights Reserved.</p>
         <div className={styles.legalLinks}>
           <a href="/terms">Terms & Conditions</a>
           <span>|</span>

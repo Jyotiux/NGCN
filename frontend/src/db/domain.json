@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "image": "ml.svg",
+    "title": "Machine Learning",
+    "description": "Building predictive models and intelligent algorithms to solve complex, real-world problems.",
+    "tag": "15+ Projects"
+  },
+  {
+    "id": 2,
+    "image": "networking.svg",
+    "title": "Networking",
+    "description": "Creating secure, scalable, and efficient networks to power modern digital infrastructures.",
+    "tag": "8+ Deployment"
+  },
+  {
+    "id": 3,
+    "image": "iot.svg",
+    "title": "IoT Systems",
+    "description": "Developing end-to-end IoT solutions that bridge the physical and digital worlds.",
+    "tag": "12+ Solutions"
+  },
+  {
+    "id": 4,
+    "image": "quantum.svg",
+    "title": "Quantum Computing",
+    "description": "Harnessing quantum mechanics to solve computational problems beyond classical reach.",
+    "tag": "5+ Innovations"
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "date": "July 2025",
+    "title": "SYNCAD Paper on Multimodal AI Published at IEA/AIE 2025",
+    "description": "Presenting our novel approach to multimodal AI at the IEA/AIE 2025 conference.",
+    "tag": "Publication"
+  },
+  {
+    "id": 2,
+    "date": "July 2025",
+    "title": "New Research on AI-Driven Finance and Portfolio Optimization",
+    "description": "Our latest research in AI-driven finance was published at the IEA/AIE 2025 conference.",
+    "tag": "Publication"
+  },
+  {
+    "id": 3,
+    "date": "July 2025",
+    "title": "Explainable AI in E-Commerce Research Presented at AIE 2025",
+    "description": "Exploring how Explainable AI can build trust in e-commerce recommendations at AIE 2025.",
+    "tag": "Publication"
+  }
+]
