@@ -2,11 +2,11 @@ import styles from "./Home.module.css";
 import { Link } from 'react-router-dom';
 import { Tweet } from 'react-tweet'; // <-- Import the new component
 import React, { useState, useEffect } from 'react'; // Ensure useState is imported if used
-import impact from "../../Data/impact.json";
-import domain from "../../Data/domain.json";
-import homeBlogs from "../../Data/homeBlogs.json";
-import news from "../../Data/news.json";
-import tweets from "../../Data/tweets.json";
+import impact from "../../db/impact.json";
+import domain from "../../db/domain.json";
+import homeBlogs from "../../db/homeBlogs.json";
+import news from "../../db/news.json";
+import tweets from "../../db/tweets.json";
 import HomeImpactCard from "../../Components/HomeImpactCard/HomeImpactCard";
 import HomeBlogCard from "../../Components/HomeBlogCard/HomeBlogCard";
 import HomeNewsCard from "../../Components/HomeNewsCard/HomeNewsCard";
