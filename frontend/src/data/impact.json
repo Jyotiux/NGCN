@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "image": "1.svg",
+    "title": "Research Areas",
+    "description": "Explore our cutting-edge research in Networking, ML, and IoT.",
+    "tag": "7+ Active Areas",
+    "link": "/Research"
+  },
+  {
+    "id": 2,
+    "image": "publications.svg",
+    "title": "Publications",
+    "description": "Peer-reviewed papers and research contributions.",
+    "tag": "20+ Publications",
+    "link": "/Publications"
+  },
+  {
+    "id": 3,
+    "image": "blogs.svg",
+    "title": "Research Blogs",
+    "description": "Insights and discoveries from our research team.",
+    "tag": "Latest insights",
+    "link": "/Blog"
+  },
+  {
+    "id": 4,
+    "image": "people.svg",
+    "title": "People",
+    "description": "Meet the dedicated researchers driving our innovation forward.",
+    "tag": "50+ Active Members",
+    "link": "/People"
+  }
+] 
