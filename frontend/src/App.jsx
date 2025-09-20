@@ -10,6 +10,7 @@ import Home from './Pages/Home/Home.jsx';
 import People from './Pages/People/People.jsx';
 import Publications from './Pages/Publications/Publications.jsx';
 import Research from './Pages/Research/Research.jsx';
+import Founder from './Pages/Founder/Founder.jsx';
 
 import './App.css'
 import BlogPost from './Pages/Blogs/BlogPost.jsx';
@@ -28,6 +29,7 @@ function App() {
         <Route path="/People" element={<People />} />
         <Route path="/Publications" element={<Publications />} />
         <Route path="/Research" element={<Research />} />
+        <Route path="/Founder" element={<Founder />} />
       </Routes>
       <Footer />
     </Router>

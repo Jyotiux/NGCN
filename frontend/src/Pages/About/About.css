@@ -186,9 +186,15 @@
   .founder-card, .founder-card.reverse {
     flex-direction: column;
   }
-  .founder-photo img { width: 100%; max-width: 320px; }
+   .founder-photo img {
+    height: 75%;
+    width: 75%;
+    max-width: 400px;
+  }
   .qualities { flex-direction: column; align-items: center; }
-  .about-story { width: 95%; }
+  .about-story { 
+    width: 90%;
+   }
 }
 
 /* Minor utility */

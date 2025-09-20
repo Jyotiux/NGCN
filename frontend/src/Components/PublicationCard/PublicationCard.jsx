@@ -16,7 +16,7 @@ function PublicationCard({ title, author, conference, doi }) {
                 </div>
             </div>
             <div className={styles.doi}>
-                <button onClick={() => window.open({ doi }, "_blank")}> <img src="/link.svg" alt="link" />
+                <button onClick={() => window.open(doi , "_blank")}> <img src="/link.svg" alt="link" />
                     <p>DOI</p></button>
             </div>
         </div>

@@ -4,118 +4,135 @@
     "title": "Hydro-Net: Integrating AI and Satellite Imagery for Precision Canal Building",
     "authors": "Shivamani Gangarapu & Gollangi Sai Surya Teja, K. E. Srinivasa Desikan",
     "conference": "CISIS 2025",
-    "year": "2025"
+    "year": "2025",
+    "doi": "https://link.springer.com/chapter/10.1007/978-3-031-96099-4_7"
   },
   {
     "id": 2,
     "title": "PLAN SMART: A Tourism Plan with Efficient Minimal Cost",
     "authors": "Sravan Kumar Jalapati & Yasasvi Jayavanth Kandula, K. E. Srinivasa Desikan",
     "conference": "CISIS 2025",
-    "year": "2025"
+    "year": "2025",
+    "doi": "https://link.springer.com/chapter/10.1007/978-3-031-96096-3_8"
   },
   {
     "id": 3,
     "title": "Mini Q-Learning for Sparsely Connected Fog Nodes",
     "authors": "Sravan Kumar Jalapati, K. E. Srinivasa Desikan",
     "conference": "CISIS 2025",
-    "year": "2025"
+    "year": "2025",
+    "doi": ""
   },
   {
     "id": 4,
     "title": "CARL: Efficient Deep Reinforcement Learning via Contrastive Replay",
     "authors": "Sravan Kumar Jalapati & Banavathu Gopi, K. E. Srinivasa Desikan",
     "conference": "CISIS 2025",
-    "year": "2025"
+    "year": "2025",
+    "doi": "https://link.springer.com/chapter/10.1007/978-3-031-96099-4_4"
   },
   {
     "id": 5,
     "title": "Bio-Inspired Denoising of Multimedia Content Using Diffusion Models: A Comparative Study",
     "authors": "Aditya Vardhan Madivada, K. E. Srinivasa Desikan",
     "conference": "CISIS 2025",
-    "year": "2025"
+    "year": "2025",
+    "doi": "https://link.springer.com/chapter/10.1007/978-3-031-96099-4_11"
   },
   {
     "id": 6,
     "title": "MARLPpo: Multi-Agent Drone Surveillance Using Deep Reinforcement Learning in Urban Aerial Mobility",
     "authors": "Nanapu Viswesh & Banavathu Gopi, K. E. Srinivasa Desikan",
     "conference": "CISIS 2025",
-    "year": "2025"
+    "year": "2025",
+    "doi": "https://link.springer.com/chapter/10.1007/978-3-031-96096-3_3"
   },
   {
     "id": 7,
     "title": "Bridging the Trust Gap: Leveraging Explainable AI for Personalized E-Commerce Recommendations",
     "authors": "Gumma Sri Sougandhika & Sanjammagari Hari Sai Ganesh, K. E. Srinivasa Desikan",
     "conference": "IEA/AIE 2025",
-    "year": "2025"
+    "year": "2025",
+    "doi": "https://link.springer.com/chapter/10.1007/978-981-96-8889-0_19"
   },
   {
     "id": 8,
     "title": "SYNCAD: Synchronised Yields from Narrative Cross Modal Audio and Data",
     "authors": "Aditya Vardhan Madivada & Bhumireddy Madhav Kartheek, K. E. Srinivasa Desikan",
     "conference": "IEA/AIE 2025",
-    "year": "2025"
+    "year": "2025",
+    "doi": "https://link.springer.com/chapter/10.1007/978-981-96-8889-0_12"
   },
   {
     "id": 9,
     "title": "Splitting and Parallel Training of Dense Layer in Dueling DQN",
     "authors": "Ankit Kumar & Rajiv Royy, K. E. Srinivasa Desikan",
     "conference": "IEA/AIE 2025",
-    "year": "2025"
+    "year": "2025",
+    "doi": ""
   },
   {
     "id": 10,
     "title": "VMD-IMF Enhanced Hyper Graph Attention Module Based Reinforcement Learning for Portfolio Optimization",
     "authors": "Neeli Venkata Siva, K. E. Srinivasa Desikan",
     "conference": "IEA/AIE 2025",
-    "year": "2025"
+    "year": "2025",
+    "doi": "https://link.springer.com/chapter/10.1007/978-981-96-8889-0_3"
   },
   {
     "id": 11,
     "title": "Remote monitoring and automatic protection of solar plant using IoT",
     "authors": "Dr. Konduri Ramesh, K. E. Srinivasa Desikan",
     "conference": null,
-    "year": "2024"
+    "year": "2024",
+    "doi": "https://www.b2match.com/e/clean-energy-transition-partnership-2024/opportunities/UGFydGljaXBhdGlvbk9wcG9ydHVuaXR5OjEyODY1Mg=="
   },
   {
     "id": 12,
     "title": "CAViaR Archery Optimization Algorithm-Based Cooperative Spectrum Sensing in Cognitive Radio Networks.",
     "authors": "D. Raghunatha Rao, K. E. Srinivasa Desikan",
     "conference": "AREIS",
-    "year": "2024"
+    "year": "2024",
+    "doi": "https://ieeexplore.ieee.org/document/10893619"
   },
   {
     "id": 13,
     "title": "Decoding the Interplay Between Latency, Reliability, Cost, and Energy While Provisioning Resources in Fog Computing Enabled IoT Networks",
     "authors": "K. E. Srinivasa Desikan, Vijeth J. Kotagi, C. Siva Ram Murthy",
     "conference": "IEEE Internet of Things Journal",
-    "year": "2022"
+    "year": "2022",
+    "doi": "https://ieeexplore.ieee.org/document/9913681"
   },
   {
     "id": 14,
     "title": "Smart at Right Price: A Cost Efficient Topology Construction for Fog Computing Enabled IoT Networks in Smart Cities",
     "authors": "K. E. Srinivasa Desikan, Vijeth J. Kotagi, C. Siva Ram Murthy",
     "conference": "PIMRC",
-    "year": "2022"
+    "year": "2022",
+    "doi": "https://ieeexplore.ieee.org/document/8580922"
   },
   {
     "id": 15,
     "title": "A Novel Distributed Latency-Aware Data Processing in Fog Computing-Enabled IoT Networks",
     "authors": "K. E. Srinivasa Desikan, Manikantan Srinivasan, Siva Ram Ch",
     "conference": "ACM",
-    "year": "2022"
+    "year": "2022",
+    "doi": "https://dl.acm.org/doi/10.1145/3083181.3083183"
   },
   {
     "id": 16,
     "title": "A Novel Matching Theory Based Data Offloading Framework for a Fog Network With Selfish and Rational Nodes",
     "authors": "K. E. Srinivasa Desikan, Vijeth J. Kotagi, C. Siva Ram Murthy",
     "conference": "IEEE Networking Letters",
-    "year": "2022"
+    "year": "2022",
+    "doi": "https://ieeexplore.ieee.org/document/9598902"
   },
   {
     "id": 17,
     "title": "Topology Control in Fog Computing Enabled IoT Networks for Smart Cities",
     "authors": "K. E. Srinivasa Desikan, Vijeth J. Kotagi, C. Siva Ram Murthy",
     "conference": "Computer Networks",
-    "year": "2022"
+    "year": "2022",
+    "doi": "https://linkinghub.elsevier.com/retrieve/pii/S1389128620301468"
   }
 ]

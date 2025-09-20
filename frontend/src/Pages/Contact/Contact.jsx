@@ -149,7 +149,11 @@ function Contact() {
         <div className="details">
           <div className="details-title">
             <h3>Get in Touch</h3>
-            <p>Currently, our research group is located in IIITDM Kurnool. We welcome visitors by appointment and encourage you to reach out in advance to schedule a meeting or tour of our facilities.</p>
+            <p>
+              Currently, our research group is located in IIITDM Kurnool. We
+              welcome visitors by appointment and encourage you to reach out in
+              advance to schedule a meeting or tour of our facilities.
+            </p>
           </div>
           <div>
             <div>
@@ -177,9 +181,7 @@ function Contact() {
             </div>
             <div className="detail-tiles">
               <h4>Email Support</h4>
-              <p>
-                ngcngroup@gmail.com, ngcnresearchgroup@iiitk.ac.in
-              </p>
+              <p>ngcngroup@gmail.com, ngcnresearchgroup@iiitk.ac.in</p>
               <p>We typically respond within 24 hours</p>
             </div>
             <div className="detail-tiles">

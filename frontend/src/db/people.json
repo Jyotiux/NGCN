@@ -355,7 +355,7 @@
         "name": "Vishwajeet Singh",
         "batch": "2026 B.Tech",
         "expertise": "Reinforcement Learning, XRL, Deep Generative Models",
-        "description": "I am working on reinforcement learning, federated learning, and TinyML. My current focus is accelerating RL by harnessing pretrained LLMs to provide action priors that shape agent policies, reducing sample complexity and training time.",
+        "description": "My research focuses on generating counterfactual environments using Genetic Algorithms to explain the sub-optimal behaviour of DRL agents. The goal is to identify minimal, sparse, and plausible changes that not only reveal why an agent made a poor decision but also guide it toward better actions, thereby improving transparency and performance of RL systems.",
         "email": "vishwajeetsingh1567@gmail.com",
         "photo": "./Images/p49.webp"
     },
