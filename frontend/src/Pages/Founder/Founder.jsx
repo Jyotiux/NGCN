@@ -10,21 +10,21 @@ const keyPublicationsData = [
       "Decoding the Interplay Between Latency, Reliability, Cost, and Energy While Provisioning Resources in Fog-Computing-Enabled IoT Networks.",
     author: "K. E. Srinivasa Desikan, Vĳeth J. Kotagi, & C. Siva Ram Murthy",
     conference: "IEEE Internet of Things Journal, 2023",
-    doi: "https://doi.org/10.1109/JIOT.2022.3204944", // Example DOI link
+    doi: "https://ieeexplore.ieee.org/document/9913681", // Example DOI link
   },
   {
     title:
       "A Novel Matching Theory-Based Data Offloading Framework for a Fog Network With Selfish and Rational Nodes.",
     author: "K. E. Srinivasa Desikan, Vĳeth J. Kotagi, & C. Siva Ram Murthy",
     conference: "IEEE Networking Letters, 2021",
-    doi: "https://doi.org/10.1109/LNET.2021.3113303", // Example DOI link
+    doi: "https://ieeexplore.ieee.org/document/9598902", // Example DOI link
   },
   {
     title:
       "Topology Control in Fog Computing Enabled IoT Networks for Smart Cities",
     author: "K. E. Srinivasa Desikan, Vĳeth J. Kotagi, & C. Siva Ram Murthy",
     conference: "Computer Networks, 2020",
-    doi: "https://doi.org/10.1016/j.comnet.2020.107270", // Example DOI link
+    doi: "https://linkinghub.elsevier.com/retrieve/pii/S1389128620301468", // Example DOI link
   },
 ];
 
