@@ -39,7 +39,7 @@ export default function About() {
                 on emerging research areas such as Artificial Intelligence, IoT,
                 Networks, and other advanced computing technologies.
               </p>
-              <Link to="/about" className="know-more-btn"><button>Know More</button></Link>
+              <Link to="/Founder" className="know-more-btn"><button>Know More</button></Link>
             </div>
           </div>
         </div>
