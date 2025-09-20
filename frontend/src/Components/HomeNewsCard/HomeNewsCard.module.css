@@ -53,7 +53,8 @@
     border-radius: 1rem;
     padding: 0.25rem;
     margin: 0.25rem;
-    border: 1px solid var(--secondary);;
+    border: 1px solid var(--secondary);
+    /* background-color: var(--background); */
 }
 
 .container:hover{
