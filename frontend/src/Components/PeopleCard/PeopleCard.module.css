@@ -1,0 +1,141 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.1); 
+    padding: 0.5rem 0.5rem 0.5rem 1rem;
+    background-color: white;
+    width: 80%;
+    margin: 0.25rem;
+}
+
+.top{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+.left{
+    padding-right: 3rem;
+    width: 100%;
+}
+
+.top h2{
+    margin: 0;
+    font-size: 1.5rem;
+    padding: 0;
+}
+
+.batch p{
+    background-color: var(--background);
+    border-radius: 15px;
+    padding: 5px 10px;
+    margin: 0.5rem 1rem 0 0;
+}
+/* REMOVE your old .image img rule and REPLACE it with these two.
+*/
+
+/* 1. This styles the container DIV to create a fixed frame */
+.image {
+  width: 170px;           /* Set a FIXED width */
+  height: 210px;          /* Set a FIXED height (making it a square) */
+  border-radius: 0.75rem;   /* Apply rounding to the container */
+  overflow: hidden;         /* This clips the image to fit the frame */
+  flex-shrink: 0;         /* Prevents the image container from shrinking */
+}
+
+/* 2. This styles the IMG tag to fill the frame without distortion */
+.image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;        /* This is the key! It scales and crops the image */
+}
+.domain{
+    margin: 0;
+    padding: 0;
+}
+
+.domain p{
+    margin: 0;
+    padding: 0;
+    font-style: italic;
+    color: var(--primary);
+}
+
+.description p{
+    font-size: 1rem;
+    /* color: #000; */
+    color: #67534f;
+}
+
+.emailContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    background-color: var(--background);
+    padding: 0 1rem;
+    width: fit-content;
+    border-radius: 2rem
+}
+
+.emailContainer img{
+    width: 25px;
+    margin: 0 0 0 10px;
+    padding: 0;
+}
+
+.email p{
+    margin: 0.5rem;
+    padding: 0;
+}
+
+/* Add this new style for the Show More/Less button */
+.toggleButton {
+    background: none;
+    border: none;
+    color: var(--primary); /* Use your primary color */
+    font-weight: bold;
+    cursor: pointer;
+    padding: 0;
+    /* margin-top: 0.5rem; */
+    margin-bottom: 1rem;
+    display: block;
+}
+
+
+/* REPLACE your old media query with this improved version */
+@media screen and (max-width: 900px) {
+    .container {
+        flex-direction: column-reverse; /* Stacks image on top of text */
+        width: 90%;                     /* Takes up more screen width */
+        padding: 1rem;                  /* Add some padding back */
+        margin: 1rem 0;
+    }
+
+
+
+    .left {
+        padding-right: 0; /* Remove the unnecessary side padding */
+        text-align: center; /* Center-align all the text content */
+    }
+
+    .top {
+        flex-direction: column; /* Stack the name and batch vertically */
+        gap: 0.5rem;
+    }
+    
+    .batch p {
+        margin: 0; /* Remove margin from the batch pill */
+    }
+
+    .emailContainer {
+        margin: 0 auto; /* Center the email button */
+    }
+}

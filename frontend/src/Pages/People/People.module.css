@@ -1,0 +1,99 @@
+.heading{
+    width: 100%;
+    height: 270px;
+    background-image: linear-gradient(to right, var(--primary), var(--accent));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.heading h1{
+    font-size: 3rem;
+    color: var(--background);
+}
+
+.heading p{
+    font-size: 1.5rem;
+    color: var(--background);
+}
+
+.peopleCards{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* --- New Styles for Search and Filter --- */
+
+.controls {
+    width: 80%;
+    max-width: 900px;
+    margin: 0rem auto 2rem auto; /* Pulls the controls up into the header space */
+    padding: 1.5rem;
+    background-color: white;
+    border-radius: 1rem;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+    position: relative;
+}
+
+.searchBar {
+    position: relative;
+    margin-bottom: 1rem;
+    width: 80%;
+}
+
+.searchIcon {
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    opacity: 0.5;
+}
+
+.searchBar input {
+    width: 100%;
+    padding: 12px 20px 12px 50px; /* Left padding for the icon */
+    font-size: 1rem;
+    border: 1px solid #e0e0e0;
+    border-radius: 25px;
+    outline: none;
+}
+
+.filterButtons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.filterBtn {
+    padding: 8px 16px;
+    font-size: 0.9rem;
+    border: 1px solid #e0e0e0;
+    border-radius: 20px;
+    background-color: #fafafa;
+    color: #555;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.filterBtn:hover {
+    background-color: #e0e0e0; 
+}
+
+.activeBtn {
+    background-color: var(--primary); /* Use your primary color */
+    color: white;
+    border-color: var(--primary);
+}
+
+.activeBtn:hover {
+    background-color: var(--accent);
+    border-color: var(--accent);
+}
