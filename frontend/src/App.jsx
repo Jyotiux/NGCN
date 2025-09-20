@@ -12,6 +12,7 @@ import Publications from './Pages/Publications/Publications.jsx';
 import Research from './Pages/Research/Research.jsx';
 
 import './App.css'
+import BlogPost from './Pages/Blogs/BlogPost.jsx';
 
 function App() {
   return (
@@ -19,7 +20,8 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/Blog" element={<Blogs />} />
+        <Route path="/blogs" element={<Blogs />} />
+        <Route path="/blogs/:id" element={<BlogPost />} />
         <Route path="/About" element={<About />} />
         <Route path="/Contact" element={<Contact />} />
         <Route path="/Gallery" element={<Gallery />} />

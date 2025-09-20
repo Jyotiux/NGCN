@@ -1,0 +1,137 @@
+[
+{
+  "id": 1,
+  "title": "Enhanced Stock Portfolio Selection Using VMD-Based IMF Generation and Hypergraph-Based Reinforcement Learning",
+  "excerpt": "Enhanced Stock Portfolio Selection Using VMD-Based IMF Generation and Hypergraph-Based RL.",
+  "content": "Neeli Venkata Siva, an M.Tech student in Artificial Intelligence and Data Science at IIITDM, Kurnool, brings a unique perspective with his qualifications in finance and technology. With an MBA in Finance, a Postgraduate Diploma in Banking and Finance, CAIIB certification, and UGC NET qualification in Management, he blends academic depth with hands-on banking experience. As an Assistant Manager, Siva managed credit portfolios and conducted advanced financial analysis. He now channels his skills into AI research, focusing on applying machine learning to finance, including predictive modeling and data visualization, using a tech stack of Python, MERN, and Power BI.",
+  "thumbnail": "https://res.cloudinary.com/dot6dzqn6/image/upload/v1749234507/b2p2_qgzc4y.jpg",
+  "image": "https://ngcn-iiitdmk.netlify.app/static/b2p1.png",
+  "category": "Finance",
+  "author": "Neeli Venkata Siva",
+  "date": "January 15, 2024"
+},
+{
+  "id": 2,
+  "title": "Implementation of MIMO and Beamforming Technique in 6G THz Communication",
+  "excerpt": "Our research focuses on improving Terahertz (THz) communication for future 6G networks using beamforming and MIMO techniques.",
+  "content": "Our research focuses on improving Terahertz (THz) communication for future 6G networks. We use real-world environmental modeling to examine how different environments influence THz signal behavior. This understanding is critical for developing systems that work effectively in various settings, such as urban areas or humid open spaces.\n\nWe also utilize beamforming techniques to direct signals more precisely to specific receivers, enhancing signal strength and quality. Additionally, we employ massive Multi-Input Multi-Output (MIMO) techniques, using multiple antennas to improve data transmission capacity and reliability. Initial results show that these strategies promote effective signal transmission with low latency, paving the way for faster, more reliable communication in 6G networks.",
+  "thumbnail": "https://lh3.googleusercontent.com/aida-public/AB6AXuDCXYl7BPYIQypj65144KB_XyecvQEjIh--zbMPQKDwZL80pAnbqz4eBxYUBtxjJcK0xlAY47RNNqSgcTptGbiodLuVwAE8o99fKjniW_WGhJVrld6N3n6qDCjJlHYWbaKdNb49uF1ktjXvxOyWHItgnhwb9kCdAauE-K4-A6yDaf3n2r5MOIGtUDRXwwbAk76TWuhabOwmHD-I0O2PCcRM0bWSv2FbcmDRV7c1pgX7BLEDr1mkrbLgOhKoeZz_Txr0m41A_8nCj89j",
+  "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuDCXYl7BPYIQypj65144KB_XyecvQEjIh--zbMPQKDwZL80pAnbqz4eBxYUBtxjJcK0xlAY47RNNqSgcTptGbiodLuVwAE8o99fKjniW_WGhJVrld6N3n6qDCjJlHYWbaKdNb49uF1ktjXvxOyWHItgnhwb9kCdAauE-K4-A6yDaf3n2r5MOIGtUDRXwwbAk76TWuhabOwmHD-I0O2PCcRM0bWSv2FbcmDRV7c1pgX7BLEDr1mkrbLgOhKoeZz_Txr0m41A_8nCj89j",
+  "category": "6G Communication",
+  "author": "Pathlavath Mukesh & Ayush Kant",
+  "date": "January 15, 2024"
+},
+{
+  "id": 3,
+  "title": "Splitting and Parallel Training of Dense Layer in Dueling DQN",
+  "excerpt": "This project explores performance gains by splitting and parallelizing the dense layer in a Dueling DQN architecture.",
+  "content": "Project tackles the challenge of detecting cyberbullying in code-mixed Hinglish content on social media. Using a multimodal DeepFusion model, we combine text analysis with LSTM/BERT for Hinglish tweets and image processing with CNN for memes, aiming for accurate detection across diverse content types.",
+  "thumbnail": "https://lh3.googleusercontent.com/aida-public/AB6AXuCjEF-UuBGq0J8EIrInknZWMYobqBpODE-uxUAy-XiRxDrintFRRO9aWrAe32Rm8TbhguX81idvp-Xouy1VgSNYnBWC8pDsAb8tnPYzApVEz-g-WLQxl4SSEpeNDBYPFnPciVk5-oyBagY5zgK71LYgEOh4vK2S7-79-faosIhhcbU7GcoLWNLDX98QHfzSJ8fY1DAQyBP-z3ClROq-9CqEV2TVW3AU0W3agf5AZQONkqFuWYTcCmqV570G0rQQuUjnRe2s_wDsKjOk",
+  "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuCjEF-UuBGq0J8EIrInknZWMYobqBpODE-uxUAy-XiRxDrintFRRO9aWrAe32Rm8TbhguX81idvp-Xouy1VgSNYnBWC8pDsAb8tnPYzApVEz-g-WLQxl4SSEpeNDBYPFnPciVk5-oyBagY5zgK71LYgEOh4vK2S7-79-faosIhhcbU7GcoLWNLDX98QHfzSJ8fY1DAQyBP-z3ClROq-9CqEV2TVW3AU0W3agf5AZQONkqFuWYTcCmqV570G0rQQuUjnRe2s_wDsKjOk",
+  "category": "Deep Reinforcement Learning",
+  "author": "Rahul",
+  "date": "January 15, 2024"
+}
+,
+  {
+  "id": 4,
+  "title": "Parallel Training of Dense Layer in Dueling DQN",
+  "excerpt": "Enhancing Dueling DQN architecture by parallelizing the dense layer, improving convergence rate and accuracy in reinforcement learning applications.",
+  "content": "Solving real-life problems faster and more accurately with AI & ML models benefits us in numerous ways. To enhance this, we are modifying the Dueling DQN structure by splitting the dense layer into multiple layers, creating separate advantage and value streams that converge at the final layer. This allows for parallel training: one stream estimates the state value V(s), while the other estimates the advantage for each action A(s, a).\n\nThis approach increases the convergence rate, leading to faster training and quicker performance improvements. It also boosts accuracy in problem-solving and enhances applications in robotics and gaming by improving action-taking decisions.",
+  "thumbnail": "https://lh3.googleusercontent.com/aida-public/AB6AXuCjEF-UuBGq0J8EIrInknZWMYobqBpODE-uxUAy-XiRxDrintFRRO9aWrAe32Rm8TbhguX81idvp-Xouy1VgSNYnBWC8pDsAb8tnPYzApVEz-g-WLQxl4SSEpeNDBYPFnPciVk5-oyBagY5zgK71LYgEOh4vK2S7-79-faosIhhcbU7GcoLWNLDX98QHfzSJ8fY1DAQyBP-z3ClROq-9CqEV2TVW3AU0W3agf5AZQONkqFuWYTcCmqV570G0rQQuUjnRe2s_wDsKjOk",
+  "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuCjEF-UuBGq0J8EIrInknZWMYobqBpODE-uxUAy-XiRxDrintFRRO9aWrAe32Rm8TbhguX81idvp-Xouy1VgSNYnBWC8pDsAb8tnPYzApVEz-g-WLQxl4SSEpeNDBYPFnPciVk5-oyBagY5zgK71LYgEOh4vK2S7-79-faosIhhcbU7GcoLWNLDX98QHfzSJ8fY1DAQyBP-z3ClROq-9CqEV2TVW3AU0W3agf5AZQONkqFuWYTcCmqV570G0rQQuUjnRe2s_wDsKjOk",
+  "category": "Deep Reinforcement Learning",
+  "author": "Ankit Kumar & Rajiv Kumar",
+  "date": "January 15, 2024"
+},
+{
+  "id": 5,
+  "title": "Bridging the trust gap: Leveraging Explainable AI for personalized E-Commerce Recommendations",
+  "excerpt": "A customer-centric, explainable recommendation system using XAI, RAG pipelines, hybrid clustering, and privacy-preserving techniques to build trust in e-commerce platforms.",
+  "content": "In the rapidly evolving landscape of e-commerce, the prevalence of smart recommendation systems is undeniable. However, their opaque nature often leaves users in the dark, hindering trust and comprehension. Recognizing this critical gap, our project introduces an innovative XAI (Explainable Artificial Intelligence)-enabled, customer-centric recommendation system designed to demystify the recommendation process.\n\nOur core objective was to bolster digital literacy by making these systems more transparent and interpretable. To achieve this, we've structured explanations across four progressive levels: Novice, Intermediate, Advanced, and Expert, each offering an increasing depth of information tailored to the user's understanding.\n\nFurther enhancing the system, we addressed key limitations identified in current recommendation paradigms. This involved tackling issues of bias, ensuring user privacy, refining user segmentation, establishing robust data pipelining, and improving response generation. We leveraged a Retrieval Augmented Generation (RAG) pipeline for richer explanations, while user segmentation was meticulously performed using a hybrid approach of decision trees and K-means clustering. Bias mitigation was achieved through the use of a generic dataset, and computational efficiency was optimized through the strategic application of transfer learning and fine-tuning. User privacy remains paramount, with personal information rigorously removed to safeguard sensitive data.\n\nThe results of our system achieved an accuracy exceeding 0.98 in its recommendations, delivering personalized and explainable insights aligned precisely with individual customer knowledge levels. This project marks a significant step towards creating more trustworthy, user-friendly, and transparent e-commerce experiences.",
+"thumbnail": "/Images/hb2.png",
+
+  "image": "https://ngcn-iiitdmk.netlify.app/static/b6p1.png",
+  "category": "Explainable AI (XAI)",
+  "author": "Gumma Sri Sougandhika & S Hari Sai Ganesh",
+  "date": "January 15, 2024"
+},
+{
+  "id": 6,
+  "title": "A Dual Byzantine Fault Tolerance approach for Multi-Agent Drone Surveillance with Deep Reinforcement Learning",
+  "excerpt": "The D2BFT framework combines PBFT and DBFT mechanisms in a MARL-PPO setting to ensure fault-tolerant, efficient, and scalable drone coordination for urban surveillance.",
+  "content": "Unmanned Aerial Vehicles (UAVs) or drones are increasingly utilized in mission-critical areas like surveillance and disaster relief, necessitating advanced distributed coordination algorithms to ensure consensus even amidst challenges such as hardware malfunctions and communication delays. Traditional consensus mechanisms struggle to adapt to the dynamic environments of drone networks, characterized by intermittent connectivity, high mobility, and energy constraints. This calls for the development of specialized algorithms that maintain resilience, efficiency, and energy efficiency amidst rapid topology changes and unreliable communication. While protocols like Practical Byzantine Fault Tolerance (PBFT) offer high reliability under attacks, they suffer from substantial communication overhead, and Delegated Byzantine Fault Tolerance (DBFT), while reducing communication costs, may compromise fault tolerance in high-risk scenarios.\n\n ## Abstract \n\n The proposed D2BFT model is a simulation framework for studying fault-tolerant consensus in distributed drone networks under the Multi-Agent Reinforcement Learning Proximal Policy Optimization (MARLPPO) mechanism that presents a scalable and efficient solution to real-world applications of drone-based surveillance, revealing better performance measurements in experimental evidence.\n\n D2BFT unites the essential elements of Practical Byzantine Fault Tolerance (PBFT) and Delegated Byzantine Fault Tolerance (DBFT) to decisively achieve consensus among drones, effectively managing varying fault percentages and accommodating an increasing number of drones. The hybrid system provides a strong agreement mechanism that guarantees reliability and efficiency, ensuring that drones can communicate and function cohesively despite failures or malicious behavior within the network. Generally, D2BFT offers useful information on the efficiency and resilience of consensus mechanisms in autonomous systems with fault-prone environments.",
+"thumbnail": "/Images/b6_0.webp",
+  "image": "/Images/b6_0.webp",
+  "category": "Multi-Agent Systems & Fault Tolerance",
+  "author": "N Viswesh & B Gopi",
+  "date": "January 15, 2025"
+},
+{
+  "id": 7,
+  "title": "Satellite Imaging for Canal Identification Using AI",
+  "excerpt": "This project introduces Hydro-Net and Hydro-Net+, AI-powered tools that use satellite imagery and intelligent pathfinding to optimize irrigation canal design in water-scarce regions like Telangana and Andhra Pradesh.",
+  "content": "This innovative research addresses the critical challenge of optimizing irrigation canal design, particularly in regions facing water scarcity like Telangana and Andhra Pradesh. Traditional methods often result in inefficient layouts, leading to water wastage and unequal distribution — issues that directly affect agricultural productivity and rural livelihoods. To solve this, the researchers developed AI-powered systems named Hydro-Net and its enhanced version Hydro-Net+, which leverage satellite imagery and advanced machine learning to identify optimal canal routes.\n\n ## Hydro-Net and Hydro-Net+ \n\n Hydro-Net begins by analyzing satellite images (e.g., from Sentinel-2) using segmentation models to detect existing water bodies. Hydro-Net+ advances this by also classifying different land types, helping the system understand which terrains are easier or harder to build canals through. Once this information is gathered, the systems use an intelligent routing algorithm called Near-Optimal Bidirectional Search (NBS) to determine the best canal path. This algorithm is more efficient and accurate than traditional ones like A* or Dijkstra’s.\n\n By integrating terrain awareness with efficient pathfinding, Hydro-Net+ makes it possible to design canals that are both cost-effective and sustainable, significantly improving water access in agriculture-dependent regions.",
+"thumbnail":"https://www.nationaltenders.com/frontend/upload/events/1560841094_4594.jpg",
+  "image": "https://www.nationaltenders.com/frontend/upload/events/1560841094_4594.jpg",
+  "category": "Satellite Imaging & AI for Water Management",
+  "author": "Shivamani G & Surya",
+  "date": "January 15, 2024"
+},
+{
+  "id": 8,
+  "title": "SYNCAD: Cross Modal Diffusion Synchronized Yields from Narrative Cross Modal Audio and Data",
+  "excerpt": "SYNCAD introduces a novel cross-modal diffusion framework that synchronizes audio and structured data to generate semantically aligned, temporally coherent video content — pushing the boundaries of multi-modal AI generation.",
+  "content": "Diffusion models designed to generate videos from text or audio inputs face significant challenges. The primary issue arises from the difficulty in accurately mapping descriptive information (e.g., text descriptions, audio cues) into video content that is both temporally coherent and semantically aligned. Current audio-video generation models, like MM-Diffusions, struggle with integrating diverse input modalities, limiting their interactivity and context-awareness.\n\n To address these challenges, we introduce SYNCAD, a novel framework that leverages synchronized audio and data inputs to enhance video generation. SYNCAD employs a cross-modal diffusion model that integrates audio cues with structured data, enabling the generation of videos that are not only visually coherent but also contextually rich. This approach allows for more interactive and responsive video content creation, overcoming the limitations of existing models.\n\n The challenge lies in creating cross-modal diffusion models that not only map the input description (text/audio) to a temporally consistent video but also ensure that the generated video is semantically faithful to the input prompt (audio/text).",
+"thumbnail":"https://ngcn-iiitdmk.netlify.app/static/b8p12.jpg",
+  "image": "https://ngcn-iiitdmk.netlify.app/static/b8p11.gif",
+  "category": "Cross Modal AI & Diffusion Models",
+  "author": "Aditya Vardhan & Madhav Kartheek",
+  "date": "January 15, 2024"
+},
+{
+  "id": 9,
+  "title": "Adaptive Tourism Planning",
+  "excerpt": "A dynamic travel planning model that recalibrates multi-modal routes in real time — minimizing disruptions and enhancing reliability for tourists navigating road, rail, and air networks.",
+  "content": "Before initiating large-scale tourism or transportation projects, conducting a feasibility study is essential. This adaptive tourism planning model is resource-efficient, requiring a small team for maintenance and server infrastructure for autonomous operation. It recalibrates routes based on real-time conditions, reducing human intervention.\n\n Traditional travel tools offer static comparisons without addressing sudden disruptions like route closures, forcing travelers into costly, last-minute changes. Especially in India, where road, rail, and air transportation present unique flexibility and challenges, disruptions can invalidate entire travel plans.\n\n Our proposed model dynamically recalculates paths, blocking unavailable routes and optimizing alternatives. By integrating road, rail, and air options, it provides a reliable, flexible solution for travelers, minimizing disruptions and enhancing the overall travel experience.",
+"thumbnail":"https://lh3.googleusercontent.com/aida-public/AB6AXuD61F8j3z3-ldAlDnkWy-hVf6-qI8wKvG6LenK0vIwmsv3-IM6QWSEREQRy37Yq19mA6yWmASwnp3-mFC9QnFxeZ1yGlIrEsr_cjsCYGUa5J1k1HX01o3vjcyDSBxwqrCIS9OUMyky2X5ljziC5rjaPAb9AL0_5E6GHUpfZNU4mjNu2MSDkemHDXbPkkiDuIyWk2Wpv_9qXOoyKVkXdYjB7uuZ5K6X_q1UkjL86puVyOudYMzbIxqqlRG_oSHMbvNjcbaF-R70sM2XZ",
+  "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuD61F8j3z3-ldAlDnkWy-hVf6-qI8wKvG6LenK0vIwmsv3-IM6QWSEREQRy37Yq19mA6yWmASwnp3-mFC9QnFxeZ1yGlIrEsr_cjsCYGUa5J1k1HX01o3vjcyDSBxwqrCIS9OUMyky2X5ljziC5rjaPAb9AL0_5E6GHUpfZNU4mjNu2MSDkemHDXbPkkiDuIyWk2Wpv_9qXOoyKVkXdYjB7uuZ5K6X_q1UkjL86puVyOudYMzbIxqqlRG_oSHMbvNjcbaF-R70sM2XZ",
+  "category": "AI in Transportation & Tourism",
+  "author": "Sravan & Jayavanth",
+  "date": "January 15, 2024"
+},
+{
+  "id": 10,  
+  "title": "Harmonies of History: A Deep Dive into Bollywood Music",
+  "excerpt": "Exploring the historical evolution of Bollywood music, analyzing its transformation through events, demographics, and the interplay of melody and lyrics shaping cultural trends.",
+  "content": "This research explores the historical evolution of Bollywood music, tracing its transformation over time. By analyzing influential factors like historical events and demographic shifts, we aim to understand how these elements have shaped the lyrics, musical styles, and overall appeal of Bollywood music. Additionally, we will investigate the interplay between melody and lyrics, examining how their integration contributes to the enduring popularity of Bollywood songs. Furthermore, this study delves into the impact of Bollywood music on societal trends and cultural values, highlighting its role in shaping popular culture.",
+  "thumbnail": "https://ngcn-iiitdmk.netlify.app/static/b10p1.png",
+  "image": "https://ngcn-iiitdmk.netlify.app/static/b10p1.png",
+  "category": "Music & Cultural Studies", 
+  "author": "Deoansh and Himesh",
+  "date": "January 15, 2024"
+},
+{
+  "id": 11, 
+  "title": "Detect Misinformation in Religious Texts Using AI",
+  "excerpt": "A sophisticated AI system leveraging XLNet and BiGRU to identify and flag fake content in religious texts like the Ramayan, fostering informed engagement and countering false narratives.",
+  "content": "Our project tackles the issue of misinformation in religious texts by developing a sophisticated AI system. Using advanced language models like XLNet and BiGRU, we analyze language patterns to identify and flag fake content. With specialized focus on texts like the Ramayan, our model provides reliable insights, fostering informed engagement and countering false narratives.",
+  "thumbnail": "https://ngcn-iiitdmk.netlify.app/static/b11.png",
+  "image": "https://ngcn-iiitdmk.netlify.app/static/b11.png",
+  "category": "AI & Society", 
+  "author": "Mayank Tanwar & Pawan Sharma",
+  "date": "January 15, 2024"
+},
+{
+  "id": 12, 
+  "title": "Advances in Fraud Detection: Machine Learning and Deep Learning Emerging Technologies in Financial and Online Payment Systems",
+  "excerpt": "How ML and DL are revolutionizing fraud detection in financial systems.",
+  "content": "Fraud in online banking and financial transactions has become increasingly complex, posing significant threats to individuals, businesses, and the economy, necessitating the development of intelligent and dynamic detection systems. This review highlights the transformative impact of Machine Learning (ML) and Deep Learning (DL) technologies in combating these evolving threats, particularly focusing on credit card and e-commerce fraud.\n\n ML and DL models offer data-driven solutions capable of learning from transaction patterns, identifying anomalies, and adapting to new forms of fraudulent activity in real time. Key methodologies include supervised learning models like Logistic Regression, Support Vector Machines (SVMs), and Random Forests, which learn from labeled data to identify known fraud patterns.\n\n For detecting emerging fraud patterns from unlabeled data, unsupervised methods such as clustering (e.g., K-Means, DBSCAN) and dimensionality reduction techniques (e.g., PCA, Autoencoders) are employed to find outliers or underlying structures. Furthermore, Deep Learning architectures like Convolutional Neural Networks (CNNs) are used to extract spatial features, while Long Short-Term Memory (LSTM) networks are powerful for analyzing temporal dynamics in sequential transaction data.\n\n Hybrid models combining CNNs and LSTMs enhance fraud prediction by integrating both spatial and temporal information. Central to the success of these models is feature engineering—transforming raw data into useful attributes—and data preprocessing, which includes normalization, dimensionality reduction, and synthetic sample generation (like SMOTE) to specifically address class imbalance, a common issue where fraud cases are rare.\n\n Despite these advancements, the field of fraud detection faces several significant challenges. A major hurdle is class imbalance, where fraudulent transactions constitute a very small fraction (often less than 1%) of the total dataset, which can bias models towards the non-fraudulent majority unless specifically addressed with techniques like SMOTE or cost-sensitive learning.\n\n Another critical challenge is concept drift, as fraudsters continuously adapt their methods, rendering existing detection models obsolete over time; this necessitates adaptive retraining and real-time monitoring systems. Data privacy and regulatory compliance, particularly with laws like GDPR and PCI DSS, also impose strict limitations on how sensitive financial information can be processed, driving the adoption of privacy-enhancing methods like federated learning and data anonymization.\n\n Furthermore, the complexity of advanced DL models often leads to a lack of model interpretability, making it difficult to understand the rationale behind a fraud prediction, which is a significant concern in regulated financial sectors. To address these issues, emerging trends include the use of blockchain for transparent and secure transaction records, real-time detection systems for immediate threat response, and the development of explainable AI (XAI) to enhance transparency and trust.\n\n The creation of synthetic datasets is also gaining traction to improve model training and support more robust evaluation, especially when real data is scarce or sensitive.",
+  "thumbnail":"https://miro.medium.com/v2/resize:fit:2000/1*M2dT90tDTwIYTQcNPkcmvg.jpeg",
+  "image": "https://miro.medium.com/v2/resize:fit:2000/1*M2dT90tDTwIYTQcNPkcmvg.jpeg", 
+  "category": "Finance",
+  "author": "Akhila Jyothi",
+  "date": "September 1, 2024"
+}
+]
+
