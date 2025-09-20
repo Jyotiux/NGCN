@@ -29,7 +29,7 @@ function Navbar() {
                 <Link to="/Publications"><button><p>Publications</p></button></Link>
                 <Link to="/People"><button><p>People</p></button></Link>
                 <Link to="/Gallery"><button><p>Gallery</p></button></Link>
-                <Link to="/Blog"><button><p>Blog</p></button></Link>
+                <Link to="/blogs"><button><p>Blog</p></button></Link>
                 <Link to="/contact"><button><p>Contact</p></button></Link>
                 <Link to="/about"><button><p>About Us</p></button></Link>
             </div>
