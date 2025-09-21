@@ -9,7 +9,7 @@
 }
 
 .image-gallery-content .image-gallery-slide img {
-  object-fit: cover;
+  object-fit: contain;
   height: 1700px; /* adjust as needed */
   width: 100%;
   border-radius: 12px;
