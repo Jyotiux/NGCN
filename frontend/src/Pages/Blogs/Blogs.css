@@ -1,7 +1,227 @@
-@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap');
-@import "tailwindcss";
+/* Prevent horizontal overflow globally */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 
-/* Apply Lora font to the whole Blogs page/container */
+:root {
+  --primary: #D5451B;
+  --secondary: #521C0D;
+  --accent: #FF9B45;
+  --emphasis: #FFC796;
+  --background: #F4E7E1;
+  --text: #000000;
+  --surface: #FFFFFF;
+}
+
+/* Container */
 .blogs-container {
-  font-family: 'Lora', serif;
+  width: 100%;
+  margin: 0 auto;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: var(--text);
+  background-color: var(--background);
+}
+
+/* Header Banner */
+.header-banner {
+  width: 100%;
+  background: linear-gradient(to left, var(--accent), var(--primary));
+  padding: 2.5rem 1rem;
+  margin-bottom: 1.25rem;
+  text-align: center;
+  color: var(--surface);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner-title {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+  color: var(--background);
+}
+
+.banner-description {
+  font-size: 1.25rem;
+  max-width: 600px;
+  margin-bottom: 1.5rem;
+  padding: 0 1rem;
+  color: var(--surface);
+}
+
+/* Search Bar */
+.search-bar-wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+  height: 40px;
+  margin-bottom: 1rem;
+}
+
+.search-input {
+  width: 100%;
+  height: 100%;
+  padding: 0 1rem;
+  border-radius: 9999px;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  background-color: var(--surface);
+  color: var(--text);
+  box-shadow: inset 0 0 5px rgba(0,0,0,0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.search-input::placeholder {
+  color: #a1a1aa;
+}
+
+.search-input:focus {
+  box-shadow: 0 0 0 3px var(--accent);
+  background-color: var(--surface);
+}
+
+/* Clear button inside search */
+.clear-button {
+  position: absolute;
+  top: 50%;
+  right: 1rem;
+  transform: translateY(-50%);
+  background: transparent;
+  border: none;
+  color: var(--primary);
+  cursor: pointer;
+  font-size: 0.875rem;
+  font-weight: 600;
+  text-decoration: underline;
+  padding: 0;
+}
+
+/* Category Filters */
+.category-filters {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.category-button {
+  font-size: 0.875rem;
+  border-radius: 9999px;
+  padding: 0.25rem 1rem;
+  border: 1px solid #d1d5db;
+  background-color: var(--surface);
+  color: var(--secondary);
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.category-button:hover {
+  background-color: var(--emphasis);
+  color: var(--text);
+}
+
+.category-button.active {
+  background-color: var(--emphasis);
+  color: var(--text);
+  border-color: transparent;
+  font-weight: 600;
+}
+
+/* Clear filters button */
+.clear-filters-button {
+  font-size: 0.875rem;
+  border-radius: 9999px;
+  padding: 0.25rem 1rem;
+  background-color: #f3f4f6;
+  color: #6b7280;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.clear-filters-button:hover {
+  background-color: #e5e7eb;
+}
+
+/* Blog List Wrapper */
+.blog-list-wrapper {
+  width: 100%;
+  padding: 0 1rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+/* No blogs found message */
+.no-blogs-found {
+  text-align: center;
+  padding: 3rem 1rem;
+  color: #6b7280;
+  animation: fadeIn 0.3s ease forwards;
+}
+
+.no-blogs-icon {
+  height: 80px;
+  width: 80px;
+  margin: 0 auto 1rem auto;
+  stroke: #9ca3af;
+}
+
+.no-blogs-title {
+  font-size: 1.125rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  color: var(--secondary);
+}
+
+.no-blogs-text {
+  font-size: 0.875rem;
+  color: var(--primary);
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .banner-title {
+    font-size: 2.25rem;
+  }
+
+  .banner-description {
+    font-size: 1rem;
+  }
+
+  .search-bar-wrapper {
+    max-width: 100%;
+  }
+
+  .category-filters {
+    gap: 0.25rem;
+  }
+
+  .category-button,
+  .clear-filters-button {
+    font-size: 0.75rem;
+    padding: 0.25rem 0.75rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .banner-title {
+    font-size: 1.75rem;
+  }
+
+  .banner-description {
+    font-size: 0.875rem;
+  }
 }

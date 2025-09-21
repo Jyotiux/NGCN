@@ -1,20 +1,22 @@
 import BlogCard from "./BlogCard";
+import "./BlogList.css";
 
 const BlogList = ({ blogs }) => {
   if (!blogs.length) {
     return (
-      <p className="text-center text-lg text-gray-500 mt-10 font-medium">
+      <p className="no-blogs-message">
         No blogs found.
       </p>
     );
   }
 
   return (
-    <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+    <div className="blog-list-grid" role="list">
       {blogs.map((blog) => (
         <div
           key={blog.id}
-          className="transform transition-all duration-300 ease-in-out hover:scale-[1.02] animate-fade-in hover:rounded-lg"
+          className="blog-list-item"
+          role="listitem"
         >
           <BlogCard blog={blog} />
         </div>
