@@ -54,6 +54,8 @@ const BlogPost = () => {
           </p>
         </header>
 
+<div className="image-container">
+
         {blog.image && (
           <img
             src={blog.image}
@@ -61,6 +63,7 @@ const BlogPost = () => {
             className="post-image"
           />
         )}
+</div>
 
         <ReactMarkdown components={markdownComponents}>
           {blog.content}

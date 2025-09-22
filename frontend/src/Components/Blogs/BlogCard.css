@@ -8,6 +8,9 @@
   text-decoration: none;
   outline-offset: 4px; /* accessibility */
 }
+.blog-card-link:hover{
+    text-decoration: none;
+}
 
 .blog-card-link:focus-visible {
   outline: 2px solid var(--accent);
@@ -88,7 +91,7 @@
 
 /* Meta info */
 .blog-card-meta {
-  margin-top: 1rem;
+  margin-top: 0.35rem;
   display: flex;
   flex-direction: column;
   gap: 0.25rem;

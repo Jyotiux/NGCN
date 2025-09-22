@@ -52,9 +52,9 @@ const Footer = () => {
       <div className={styles.socialMedia}>
         <h4>Follow Us</h4>
         <ul>
-          <li><a href="#" target="_blank" rel="noopener noreferrer">Facebook</a></li>
-          <li><a href="#" target="_blank" rel="noopener noreferrer">Twitter</a></li>
-          <li><a href="#" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+          <li><a href="https://www.linkedin.com/company/next-gen-computing-and-networking-ngcn/posts/?feedView=all" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+          <li><a href="https://x.com/NGCN_Group" target="_blank" rel="noopener noreferrer">Twitter</a></li>
+          <li><a href="https://www.instagram.com/ngcngroup" target="_blank" rel="noopener noreferrer">Instagram</a></li>
         </ul>
       </div>
       

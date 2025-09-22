@@ -31,18 +31,6 @@
   "category": "Deep Reinforcement Learning",
   "author": "Rahul",
   "date": "January 15, 2024"
-}
-,
-  {
-  "id": 4,
-  "title": "Parallel Training of Dense Layer in Dueling DQN",
-  "excerpt": "Enhancing Dueling DQN architecture by parallelizing the dense layer, improving convergence rate and accuracy in reinforcement learning applications.",
-  "content": "Solving real-life problems faster and more accurately with AI & ML models benefits us in numerous ways. To enhance this, we are modifying the Dueling DQN structure by splitting the dense layer into multiple layers, creating separate advantage and value streams that converge at the final layer. This allows for parallel training: one stream estimates the state value V(s), while the other estimates the advantage for each action A(s, a).\n\nThis approach increases the convergence rate, leading to faster training and quicker performance improvements. It also boosts accuracy in problem-solving and enhances applications in robotics and gaming by improving action-taking decisions.",
-  "thumbnail": "https://lh3.googleusercontent.com/aida-public/AB6AXuCjEF-UuBGq0J8EIrInknZWMYobqBpODE-uxUAy-XiRxDrintFRRO9aWrAe32Rm8TbhguX81idvp-Xouy1VgSNYnBWC8pDsAb8tnPYzApVEz-g-WLQxl4SSEpeNDBYPFnPciVk5-oyBagY5zgK71LYgEOh4vK2S7-79-faosIhhcbU7GcoLWNLDX98QHfzSJ8fY1DAQyBP-z3ClROq-9CqEV2TVW3AU0W3agf5AZQONkqFuWYTcCmqV570G0rQQuUjnRe2s_wDsKjOk",
-  "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuCjEF-UuBGq0J8EIrInknZWMYobqBpODE-uxUAy-XiRxDrintFRRO9aWrAe32Rm8TbhguX81idvp-Xouy1VgSNYnBWC8pDsAb8tnPYzApVEz-g-WLQxl4SSEpeNDBYPFnPciVk5-oyBagY5zgK71LYgEOh4vK2S7-79-faosIhhcbU7GcoLWNLDX98QHfzSJ8fY1DAQyBP-z3ClROq-9CqEV2TVW3AU0W3agf5AZQONkqFuWYTcCmqV570G0rQQuUjnRe2s_wDsKjOk",
-  "category": "Deep Reinforcement Learning",
-  "author": "Ankit Kumar & Rajiv Kumar",
-  "date": "January 15, 2024"
 },
 {
   "id": 5,
@@ -132,6 +120,39 @@
   "category": "Finance",
   "author": "Akhila Jyothi",
   "date": "September 1, 2024"
+},
+{
+  "id": 13, 
+  "title": "A Dual Byzantine Fault Tolerance approach for Multi-Agent Drone Surveillance with Deep Reinforcement Learning",
+  "excerpt": "The D2BFT model combines the strengths of PBFT and DBFT to offer a scalable, fault-tolerant consensus solution for distributed drone networks, ensuring reliable communication and efficiency even in dynamic, fault-prone environments.",
+  "content": "Unmanned Aerial Vehicles (UAVs) or drones are increasingly utilized in mission-critical areas like surveillance and disaster relief, necessitating advanced distributed coordination algorithms to ensure consensus even amidst challenges such as hardware malfunctions and communication delays. Traditional consensus mechanisms struggle to adapt to the dynamic environments of drone networks, characterized by intermittent connectivity, high mobility, and energy constraints. This calls for the development of specialized algorithms that maintain resilience, efficiency, and energy efficiency amidst rapid topology changes and unreliable communication. While protocols like Practical Byzantine Fault Tolerance (PBFT) offer high reliability under attacks, they suffer from substantial communication overhead, and Delegated Byzantine Fault Tolerance (DBFT), while reducing communication costs, may compromise fault tolerance in high-risk scenarios.\n\n The proposed D2BFT model is a simulation framework for studying fault-tolerant consensus in distributed drone networks under the Multi-Agent Reinforcement Learning Proximal Policy Optimization (MARLPPO) mechanism that presents a scalable and efficient solution to real-world applications of drone-based surveil- lance, revealing better performance measurements in experimental evidence. D2BFT unites the essential elements of Practical Byzantine Fault Tolerance (PBFT) and Delegated Byzantine Fault Tolerance (DBFT) to decisively achieve consen- sus among drones, effectively managing varying fault percentages and accom- modating an increasing number of drones. The hybrid system provides a strong agreement mechanism that guarantees reliability and efficiency, ensuring that drones can communicate and function cohesively despite failures or malicious behavior within the network. Generally, D2BFT offers useful information on the efficiency and resilience of consensus mechanisms in autonomous systems with fault-prone environments.",
+  "thumbnail":"hb1.png",
+  "image": "https://res.cloudinary.com/ddyxqpatx/image/upload/v1758469089/b6_1_pwggvc.png", 
+  "category": "Deep Reinforcement Learning",
+  "author": "N Viswesh & B Gopi",
+  "date": "January 15, 2025"
+},
+{
+  "id": 14, 
+  "title": "Bridging the trust gap: Leveraging Explainable AI for personalized E-Commerce Recommendations",
+  "excerpt": "Our XAI-enabled recommendation system transforms e-commerce by providing transparent, personalized insights at varying levels of user expertise, addressing key issues like bias, privacy, and computational efficiency for a more trustworthy and customer-centric experience.",
+  "content": "In the rapidly evolving landscape of e-commerce, the prevalence of smart recommendation systems is undeniable. However, their opaque nature often leaves users in the dark, hindering trust and comprehension. Recognizing this critical gap, our project introduces an innovative XAI (Explainable Artificial Intelligence)-enabled, customer-centric recommendation system designed to demystify the recommendation process. Our core objective was to bolster digital literacy by making these systems more transparent and interpretable. To achieve this, we've structured explanations across four progressive levels: Novice, Intermediate, Advanced, and Expert, each offering an increasing depth of information tailored to the user's understanding. \n\n Further enhancing the system, we addressed key limitations identified in current recommendation paradigms. This involved tackling issues of bias, ensuring user privacy, refining user segmentation, establishing robust data pipelining, and improving response generation. We leveraged a Retrieval Augmented Generation (RAG) pipeline for richer explanations, while user segmentation was meticulously performed using a hybrid approach of decision trees and K-means clustering. Bias mitigation was achieved through the use of a generic dataset, and computational efficiency was optimized through the strategic application of transfer learning and fine-tuning. User privacy remains paramount, with personal information rigorously removed to safeguard sensitive data.\n\nThe results of our system achieved an accuracy exceeding 0.98 in its recommendations, delivering personalized and explainable insights aligned precisely with individual customer knowledge levels. This project marks a significant step towards creating more trustworthy, user-friendly, and transparent e-commerce experiences.",
+  "thumbnail":"hb3.png",
+  "image": "https://ngcn-iiitdmk.netlify.app/static/b6p1.png", 
+  "category": "Explainable AI (XAI)",
+  "author": "Gumma Sri Sougandhika & S Hari Sai Ganesh",
+  "date": "January 15, 2024"
+},
+{
+  "id": 15, 
+  "title": "SYNCAD: Cross Modal Diffusion Synchronized Yields from Narrative Cross Modal Audio and Data",
+  "excerpt": "SYNCAD is a cross-modal diffusion framework that synchronizes audio and structured data to generate temporally coherent, semantically aligned videos, overcoming the limitations of existing audio-video generation models in interactivity and contextual fidelity.",
+  "content": "Diffusion models designed to generate videos from text or audio inputs face significant challenges. The primary issue arises from the difficulty in accurately mapping descriptive information (e.g., text descriptions, audio cues) into video content that is both temporally coherent and semantically aligned. Current audio-video generation models, like MM-Diffusions, struggle with integrating diverse input modalities, limiting their interactivity and context-awareness. \n \nTo address these challenges, we introduce SYNCAD, a novel framework that leverages synchronized audio and data inputs to enhance video generation. SYNCAD employs a cross-modal diffusion model that integrates audio cues with structured data, enabling the generation of videos that are not only visually coherent but also contextually rich. This approach allows for more interactive and responsive video content creation, overcoming the limitations of existing models.The challenge lies in creating cross-modal diffusion models that not only map the input description (text/audio) to a temporally consistent video but also ensure that the generated video is semantically faithful to the input prompt (audio/text).",
+  "thumbnail":"hb2.png",
+  "image": "https://ngcn-iiitdmk.netlify.app/static/b8p11.gif", 
+  "category": "Multimodal ML",
+  "author": "Aditya Vardhan & Madhav Kartheek",
+  "date": "January 15, 2024"
 }
 ]
 

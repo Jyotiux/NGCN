@@ -10,7 +10,10 @@
     height: 320px;
     margin: 0.5rem;
     box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.1); 
+}
 
+.link:hover{
+    text-decoration: none;
 }
 
 .title{
