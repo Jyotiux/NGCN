@@ -51,7 +51,7 @@ const researchData = [
     {
         title: "Deep Learning",
         desc: "Deep neural network architectures for complex problem solving and cognitive computing applications.",
-        tags: ["CNNs", "RNNs", "Transformers", "GANs", "Computer Vision", "NLP"],
+        tags: ["CNNs", "RNNs", "Transformers", "GANs", "Computer Vision", "NLP",],
         icon:
             <div className='icon-box'
                 style={{
