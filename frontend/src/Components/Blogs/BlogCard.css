@@ -8,6 +8,9 @@
   text-decoration: none;
   outline-offset: 4px; /* accessibility */
 }
+.blog-card-link:hover{
+    text-decoration: none;
+}
 
 .blog-card-link:focus-visible {
   outline: 2px solid var(--accent);
