@@ -74,7 +74,7 @@ export default function About() {
           with practical innovation.
         </p>
         <p>
-          Led by Dr. K. E. Srinivasa Desikan, a monk and researcher, NGCN
+          Led by Dr. K. E. Srinivasa Desikan, NGCN
           thrives on the harmony of knowledge, creativity, and collaboration. We
           work at the intersection of theory and application, advancing ideas
           that not only deepen scientific understanding but also address

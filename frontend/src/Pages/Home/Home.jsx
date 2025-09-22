@@ -40,6 +40,7 @@ function Home() {
                             image={card.image}
                             title={card.title}
                             description={card.description}
+                            link={card.link}
                         />
                     ))}
                 </div>

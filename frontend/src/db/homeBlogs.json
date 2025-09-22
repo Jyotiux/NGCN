@@ -4,19 +4,21 @@
     "image": "hb1.png",
     "title": "Reinforcement Learning",
     "description": "Autonomous drones enhance surveillance using Deep Reinforcement Learning (DRL).",
-    "tag": "Active Areas"
+    "link": "/blogs/13"
   },
   {
     "id": 2,
     "image": "hb2.png",
     "title": "Multimodal Machine Learning",
-    "description": "SYNCAD Cross Modal Diffusion Synchronized Yields from Narrative Cross Modal Data."
+    "description": "SYNCAD Cross Modal Diffusion Synchronized Yields from Narrative Cross Modal Data.",
+    "link": "/blogs/15"
   },
   {
     "id": 3,
     "image": "hb3.png",
     "title": "Explainable AI",
-    "description": "Product recommendation systems using Explainable Artificial Intelligence (XAI)"
+    "description": "Product recommendation systems using Explainable Artificial Intelligence (XAI)",
+    "link": "/blogs/14"
   }
 ]
 
