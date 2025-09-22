@@ -1,0 +1,188 @@
+
+.title h1 {
+  font-size: 2.2rem;
+  /* Adjusted font size for mobile */
+  font-weight: bold;
+  color: var(--color-surface);
+  margin: 2rem 0 0 0;
+  
+}
+
+.title p {
+  font-size: 1rem;
+  /* Adjusted font size for mobile */
+  color: var(--color-surface);
+  max-width: 90%;
+  
+}
+
+/* Container */
+.research-container {
+  padding: 4rem 20px;
+  background: #F4E7E1;
+  /* same warm-beige as in screenshot */
+  min-height: 100vh;
+  /* background-color: red; */
+}
+
+
+/* Header */
+.research-header {
+  text-align: center;
+  margin-bottom: 1;
+}
+
+.research-header h1 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #5b2c1a;
+  /* deep brown heading */
+  margin-bottom: 0.5rem;
+  font-family: "noto sans";
+}
+
+.research-header p {
+  color: #663c2d;
+  font-size: 0.9rem;
+  margin-bottom: 4rem;
+  
+}
+
+/* Grid */
+/* .research-grid {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  max-width: 1800px;
+  margin-left: auto;
+  margin-right: auto;
+} */
+
+.research-grid {
+  display: flex;
+  flex-wrap: wrap;           /* allow wrapping to multiple rows */
+  gap: 1.5rem;               /* space between cards */
+  justify-content: center;   /* center items in each row */
+  max-width: 1800px;
+  margin: 0 auto;            /* center the container */
+}
+
+/* Card */
+/* .research-card {
+  
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  max-width: 450px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  
+} */
+
+.research-card {
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  
+  flex: 1 1 350px;           /* flexible basis 350px, can grow/shrink */
+  max-width: 450px;          /* max width per card */
+  
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+@media screen and (max-width:1145px) {
+  .research-card{
+    max-width: 520px;
+  }
+}
+
+@media screen and (max-width:752px) {
+  .research-card{
+    max-width: 600px;
+  }
+}
+
+
+
+.research-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+}
+
+/* Icon */
+.icon-box {
+  background-color: "#f3662eff";
+  height: "60px";
+  width: "60px";
+  border-radius: "10px";
+  display: "flex";
+  justify-content: "center";
+  align-items: "center";
+}
+
+.card-icon {
+  font-size: "35px";
+  color: "white";
+}
+
+.icon-wrapper {
+  width: 60px;
+  height: 60px;
+  margin: 0 auto 1rem;
+  width: 100%;
+}
+
+.icon-wrapper img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  /* background-color: #c96b4f; */
+  /* right: 2px; */
+}
+
+/* Title */
+.research-card h2 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #5b2c1a;
+  margin-bottom: 0.5rem;
+  
+}
+
+/* Description */
+.research-card p {
+  font-size: 0.95rem;
+  color: #555;
+  margin-bottom: 1rem;
+  /* font-family: "noto sans"; */
+}
+
+/* Tags */
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: center; */
+  gap: 0.5rem;
+}
+
+.tag {
+  background: #e4dbd49f;
+  padding: 0.35rem 0.75rem;
+  font-size: 0.8rem;
+  border-radius: 20px;
+  color: #5b2c1a;
+  font-weight: 600;
+  /* font-family: "noto sans"; */
+}
+
+/* Responsive tweaks */
+@media (max-width: 600px) {
+  .research-header h1 {
+    font-size: 2rem;
+  }
+
+  .research-card {
+    padding: 1.5rem;
+  }
+}
