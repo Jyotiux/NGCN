@@ -9,7 +9,7 @@
 }
 
 .title p {
-  font-size: 1rem;
+  font-size: 1.1rem;
   /* Adjusted font size for mobile */
   color: var(--color-surface);
   max-width: 90%;
@@ -43,7 +43,7 @@
 
 .research-header p {
   color: #663c2d;
-  font-size: 0.9rem;
+  font-size: 1rem;
   margin-bottom: 4rem;
   
 }

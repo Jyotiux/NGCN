@@ -241,27 +241,27 @@
     /* background-color: var(--primary); */
     background-image: linear-gradient(to left, var(--accent), var(--primary));
     width: 100%;
-    padding: 0px;
-    margin: 0px;
-    height: 400px;
+    padding: 2rem;
+    margin: 0;
+
 }
 
 .block6 h2{
-    margin: 4rem 0rem 2rem 0rem;
+    margin: 2rem 0 0 0;
     color: var(--background);
-    font-size: 2.25rem;
+    font-size: 2rem;
 }
 
 .block6 p{
     color: var(--background);
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-weight: 300;
 
 }
 
 .block6 button{
     background-color: var(--primary);
-    margin-bottom: 3rem;
+    margin-top: 0.5rem;
 }
 
 .block6 button:hover{

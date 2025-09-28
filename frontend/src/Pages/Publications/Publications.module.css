@@ -2,8 +2,9 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-left: 4rem;
+    align-items: center;
 }
+
 
 .searchContainer img{
     width: 20px;
@@ -35,11 +36,10 @@
   margin-top: 40px;
   margin-bottom: 20px;
   color: #333;
-  text-align: left;
 }
 
 .yearHeading:first-of-type {
-  margin-top: 20px;
+  margin-top: 0px;
 }
 
 .block1{
@@ -48,17 +48,20 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 2rem;
 }
 
 .block1 h1{
     color: var(--background);
-    font-size: 3rem;
+    font-size: 2.2rem;
+    margin: 2rem 0 0 0 ;
+
 }
 
 .block1 p{
     color: var(--background);
-    margin: 0.5rem 2rem;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
+    text-align: center;
 }
 
 
@@ -73,6 +76,8 @@
     position: relative; /* This is the key to positioning the icon inside */
     width: 100%;
     max-width: 800px; /* Adjust width as needed */
+    margin: 1rem auto;
+
 }
 
 /* The search icon */
@@ -89,12 +94,13 @@
 /* The search input field */
 .searchInput {
     width: 100%;
-    padding: 12px 20px 12px 50px; /* CRITICAL: Add left padding to make space for the icon */
+    padding: 20px 20px 20px 50px; /* CRITICAL: Add left padding to make space for the icon */
     font-size: 1rem;
     border: none; /* Remove the default border */
     background-color: #f0f2f5; /* A light grey background */
     border-radius: 25px; /* Make it pill-shaped */
     outline: none; /* Remove the blue glow on focus */
+      font-family: 'Lora', serif;
 }
 
 .searchInput:focus {
