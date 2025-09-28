@@ -48,7 +48,6 @@ const Blogs = () => {
         
       </div>
 {/* Search Bar */}
-<div className="filters-wrapper">
 <div className="search-bar-wrapper">
   <div className="search-input-wrapper">
     <FaSearch className="search-icon" />
@@ -85,7 +84,7 @@ const Blogs = () => {
   ))}
 
 </div>
-</div>
+
       {/* Blog List */}
       <div className="blog-list-wrapper">
         {(filteredFeaturedBlogs.length + filteredLatestBlogs.length) > 0 ? (
