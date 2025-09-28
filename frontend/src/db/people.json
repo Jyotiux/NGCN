@@ -64,10 +64,10 @@
         "photo": "./Images/p5.jpg"
     },
     {
-        "name": "Shenbaga Sujan",
+        "name": "Shenbaga Sujan V S",
         "batch": "2025 Pilot Batch",
         "expertise": "Machine Learning, Deep Learning",
-        "description": "I developed a deep learning pipeline for bioacoustic species classification using environmental audio recordings. The workflow involved converting raw audio into Mel spectrograms and applying transfer learning with EfficientNet to accurately classify bird and animal sounds. I optimized the model for performance on imbalanced and noisy datasets.",
+        "description": "In my research, I developed machine learning frameworks for forecasting spare part demand in end-of-life and lumpy scenarios. I integrated historical demand, warranty, and fleet data with advanced models like Random Forest and Transformers, linking predictions to inventory strategies. This work improves accuracy, reduces risk, and supports cost-efficient supply chains.",
         "email": "offl.sujan@gmail.com",
         "photo": "./Images/p7.jpg"
     },
@@ -301,7 +301,7 @@
         "expertise": "AI, CV, ML, IOT, XAI, NLP",
         "description": "Working under the guidance of Dr. Srinivas Desikan and the mentorship of S.H.S. Ganesh, I am exploring ways to expand the scope of Explainable AI (XAI) in the agricultural domain. The focus is on advancing agricultural practices by integrating advanced technologies to enhance crop yield, ensure sustainability, and drive data-driven decision-making.",
         "email": "yusufmurtaza32@gmail.com",
-        "photo": "./Images/p43.jpg"
+        "photo": "./Images/p43.png"
     },
     {
         "name": "Satyam Saurabh",
@@ -309,7 +309,7 @@
         "expertise": "ML, DL, NLP, AI, XAI",
         "description": "Under the guidance of Dr. Srinivas Desikan and mentorship of S.H.S. Ganesh, I am actively engaged in exploring innovative applications of Explainable AI (XAI) within the agricultural sector. My work aims to support sustainable farming, optimize crop productivity, and promote data-driven decision-making.",
         "email": "shashankkumar04066@gmail.com",
-        "photo": ""
+        "photo": "./Images/Satyam.jpg"
     },
     {
         "name": "Satvika Dwaram",
@@ -330,16 +330,16 @@
     {
         "name": "Veeramalla Akhila",
         "batch": "2026 B.Tech",
-        "expertise": "IoT,Edge AI,RNN (Recurrent Neural Networks),Explainable AI (XAI),Healthcare Analytics",
-        "description": "Collaborating with G. Preethi on a research initiative titled 'IoT's Role in Personalized Dietary Support for Mental Health using RNN Models.' The project explores the integration of IoT-enabled dietary tracking with deep learning models to deliver personalized and predictive insights into mental well-being.",
+        "expertise": "Edge AI, IIoT, Federated Learning, Explainable AI (XAI), Predictive Maintenance, Anomaly Detection",
+        "description": "Currently working with G. Preethi on a research project titled “Rel-IIoT: An Edge-Based AI Framework for Smart Anomaly Detection in IIoT.” This research focuses on building a secure and scalable predictive maintenance framework that combines edge computing, federated learning, and explainable AI. The framework enables real-time anomaly detection while preserving data privacy and interpretability, supporting Industry 4.0 applications by reducing downtime, improving efficiency, and enhancing trust in intelligent systems.",
         "email": "veeramallaakhila19@gmail.com",
         "photo": "./Images/p46.jpg"
     },
     {
         "name": "Gundra Preethi",
         "batch": "2026 B.Tech",
-        "expertise": "IoT,Edge AI,RNN (Recurrent Neural Networks),Explainable AI (XAI),Healthcare Analytics",
-        "description": "Currently working with V. Akhila on a research project titled 'IoT's Role in Personalized Dietary Support for Mental Health using RNN Models.' This work focuses on developing a smart healthcare framework that combines IoT-based dietary monitoring with Recurrent Neural Networks (RNNs) to analyze eating patterns and predict mental health indicators.",
+        "expertise": "Edge AI, IIoT, Federated Learning, XAI, Predictive Maintenance, Anomaly Detection",
+        "description": "Currently working with V. Akhila on a research project titled “Rel-IIoT: An Edge-Based AI Framework for Smart Anomaly Detection in IIoT.” This work focuses on developing a predictive maintenance framework that leverages edge computing, federated learning, and explainable AI to detect anomalies in industrial systems. The framework aims to reduce latency, enhance privacy, and improve scalability while providing interpretable insights, enabling industries to minimize downtime and optimize operational efficiency in the era of Industry 4.0.",
         "email": "preethisravya4@gmail.com",
         "photo": "./Images/p47.jpg"
     },
@@ -416,7 +416,7 @@
         "photo": "./Images/p56.jpg"
     },
     {
-        "name": "Suraj",
+        "name": "Suraj Kodakandla",
         "batch": "2027 B.Tech",
         "expertise": "Gen AI, ML, LLM's,Model Fine-tuning",
         "description": "Focused on building and optimizing Generative AI and Machine Learning models, with hands-on experience in training and fine-tuning transformer-based architectures. Actively contributing to the development of real-world AI solutions through model deployment, prompt engineering, and experimentation with innovative AI applications.",
@@ -424,11 +424,11 @@
         "photo": "./Images/p24.png"
     },
     {
-        "name": "Madhumitha",
+        "name": "Madhumitha Itikala",
         "batch": "2027 B.Tech",
         "expertise": "AI,ML,DL",
         "description": "My work focuses on Artificial Intelligence, with a strong emphasis on Machine Learning and Deep Learning. I explore the design of intelligent, data-driven systems that learn from patterns and make human-like decisions. Using deep neural networks, I aim to develop inclusive, real-time solutions for tasks like speech synthesis and language understanding, with attention to scalability, emotion, and multilingual support.",
-        "email": "",
+        "email": "itikalamadhumitha@gmail.com",
         "photo": "./Images/p25.png"
     },
     {
@@ -465,10 +465,10 @@
     },
     {
         "name": "Prateek Raushan",
-        "batch": "2027 B.Tech",
+        "batch": "2028 B.Tech",
         "expertise": "Networks and Machine learning",
-        "description": "",
-        "email": "",
+        "description": "Passionate about machine learning, exploring algorithms, data science, and AI-driven projects to build practical skills and strengthen expertise for future innovations.",
+        "email": "124cs0082@iiitk.ac.in",
         "photo": "./Images/p38.jpg"
     }
 ]

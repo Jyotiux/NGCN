@@ -29,7 +29,7 @@ function App() {
         <Route path="/People" element={<People />} />
         <Route path="/Publications" element={<Publications />} />
         <Route path="/Research" element={<Research />} />
-        <Route path="/Founder" element={<Founder />} />
+        <Route path="/kesdesikan" element={<Founder />} />
       </Routes>
       <Footer />
     </Router>
