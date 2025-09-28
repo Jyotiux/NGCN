@@ -44,8 +44,6 @@ const Footer = () => {
           {/* // Updated contact details */}
           <li><p>📍 IIITDM Kurnool, Andhra Pradesh</p></li>
           <li><p>📧 ngcngroup@gmail.com</p></li>
-          <li><p>📧 computinglab@iiitk.ac.in</p></li>
-          <li><p>📧 ngcnresearchgroup@iiitk.ac.in</p></li>
         </ul>
       </div>
 

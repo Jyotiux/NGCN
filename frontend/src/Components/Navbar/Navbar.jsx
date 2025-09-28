@@ -32,6 +32,7 @@ function Navbar() {
                 <Link to="/blogs"><button><p>Blog</p></button></Link>
                 <Link to="/contact"><button><p>Contact</p></button></Link>
                 <Link to="/about"><button><p>About Us</p></button></Link>
+                <Link to="/kesdesikan"><button><p>Founder</p></button></Link>
             </div>
         </div>
     );
