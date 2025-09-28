@@ -1,19 +1,37 @@
 import './Blogs.css';
+import { FaSearch } from "react-icons/fa";
 import { useState } from 'react';
-import BlogList from '../../Components/Blogs/BlogList.jsx';
+import BlogList1 from '../../Components/Blogs/BlogList1.jsx';  // Featured Articles List
+import BlogList2 from '../../Components/Blogs/BlogList2.jsx';  // Latest Articles List
+import BlogCard1 from '../../Components/Blogs/BlogCard1.jsx'; // For Featured Articles
+import BlogCard2 from '../../Components/Blogs/BlogCard2.jsx'; // For Latest Articles
 import blogsData from '../../db/blogs.json';
+import featuredBlogsData from '../../db/featured.json';
 
 const Blogs = () => {
   const [search, setSearch] = useState('');
 
-  // Extract unique categories
-  const uniqueCategories = [...new Set(blogsData.map(blog => blog.category))];
+  // Extract unique categories from both featured and latest blogs combined
+  const allBlogsCombined = [...featuredBlogsData, ...blogsData];
+  const uniqueCategories = [...new Set(allBlogsCombined.map(blog => blog.category))];
 
-  // Filter blogs by title, description, or category
-  const filteredBlogs = blogsData.filter((blog) =>
+  // Filter featured blogs by search
+  const filteredFeaturedBlogs = featuredBlogsData.filter((blog) =>
     blog.title.toLowerCase().includes(search.toLowerCase()) ||
     blog.description?.toLowerCase().includes(search.toLowerCase()) ||
     blog.category.toLowerCase().includes(search.toLowerCase())
+  );
+
+  // Filter latest blogs by search
+  // Also exclude blogs that appear in featured (based on id)
+  const featuredIds = featuredBlogsData.map(blog => blog.id);
+  const filteredLatestBlogs = blogsData.filter((blog) =>
+    !featuredIds.includes(blog.id) &&
+    (
+      blog.title.toLowerCase().includes(search.toLowerCase()) ||
+      blog.description?.toLowerCase().includes(search.toLowerCase()) ||
+      blog.category.toLowerCase().includes(search.toLowerCase())
+    )
   );
 
   const handleClearSearch = () => setSearch('');
@@ -22,64 +40,73 @@ const Blogs = () => {
     <div className="blogs-container">
       {/* Header Banner */}
       <div className="header-banner">
-        <h1 className="banner-title">
-          Our Blogs
-        </h1>
-
+        <h1 className="banner-title">Research Blogs</h1>
         <p className="banner-description">
           Insights, discoveries, and thoughts from our research team on cutting-edge technologies
         </p>
 
-        {/* Search Bar */}
-        <div className="search-bar-wrapper">
-          <input
-            type="text"
-            placeholder="Search blogs..."
-            value={search}
-            onChange={(e) => setSearch(e.target.value)}
-            className="search-input"
-          />
-          {search && (
-            <button
-              onClick={handleClearSearch}
-              className="clear-button"
-              aria-label="Clear search"
-            >
-              Clear
-            </button>
-          )}
-        </div>
+        
+      </div>
+{/* Search Bar */}
+<div className="filters-wrapper">
+<div className="search-bar-wrapper">
+  <div className="search-input-wrapper">
+    <FaSearch className="search-icon" />
+    <input
+      type="text"
+      placeholder="Search blogs..."
+      value={search}
+      onChange={(e) => setSearch(e.target.value)}
+      className="search-input"
+    />
+  </div>
+</div>
 
         {/* Category Filters */}
-        <div className="category-filters">
-          {uniqueCategories.map((category) => (
-            <button
-              key={category}
-              onClick={() => setSearch(category)}
-              className={`category-button ${search === category ? 'active' : ''}`}
-              type="button"
-            >
-              {category}
-            </button>
-          ))}
+<div className="category-filters">
+  <button
+    key="all-topics"
+    onClick={handleClearSearch}
+    className={`category-button ${search === '' ? 'active' : ''}`}
+    type="button"
+  >
+    All Topics
+  </button>
 
-          {/* Clear Button */}
-          {search && (
-            <button
-              onClick={handleClearSearch}
-              className="clear-filters-button"
-              type="button"
-            >
-              Clear Filters
-            </button>
-          )}
-        </div>
-      </div>
+  {uniqueCategories.map((category) => (
+    <button
+      key={category}
+      onClick={() => setSearch(category)}
+      className={`category-button ${search === category ? 'active' : ''}`}
+      type="button"
+    >
+      {category}
+    </button>
+  ))}
 
+</div>
+</div>
       {/* Blog List */}
       <div className="blog-list-wrapper">
-        {filteredBlogs.length > 0 ? (
-          <BlogList blogs={filteredBlogs} />
+        {(filteredFeaturedBlogs.length + filteredLatestBlogs.length) > 0 ? (
+          <>
+            {/* Featured Articles Section */}
+{filteredFeaturedBlogs.length > 0 && (
+  <section className="featured-articles">
+    <h1>Featured Articles</h1>
+    <BlogList1 blogs={filteredFeaturedBlogs} />
+  </section>
+)}
+
+{/* Latest Articles Section */}
+{filteredLatestBlogs.length > 0 && (
+  <section className="latest-articles">
+    <h1>Latest Articles</h1>
+    <BlogList2 blogs={filteredLatestBlogs} />
+  </section>
+)}
+
+          </>
         ) : (
           search.trim() !== '' && (
             <div className="no-blogs-found">
@@ -98,9 +125,7 @@ const Blogs = () => {
                 />
               </svg>
 
-              <h3 className="no-blogs-title">
-                No Blogs found
-              </h3>
+              <h3 className="no-blogs-title">No Blogs found</h3>
 
               <p className="no-blogs-text">
                 Try adjusting your search terms or browse all blogs by clearing the filter.

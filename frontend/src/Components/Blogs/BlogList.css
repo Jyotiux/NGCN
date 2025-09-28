@@ -1,45 +1,53 @@
 .no-blogs-message {
   text-align: center;
-  font-size: 1.125rem; /* text-lg */
-  color: #6b7280; /* gray-500, you can keep or change to a palette color if desired */
-  margin-top: 2.5rem; /* mt-10 */
+  font-size: 1.125rem; 
+  color: #6b7280; 
+  margin-top: 2.5rem; 
   font-weight: 500;
 }
 
-/* Grid container */
+
+.blog-list-grid1 {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+
+/* Responsive grid container */
 .blog-list-grid {
   display: grid;
-  gap: 2rem; /* gap-8 */
-  grid-template-columns: repeat(1, 1fr);
+  gap: 2rem;
+  grid-template-columns: 1fr; /* Default: 1 column */
 }
 
-/* Items with hover scale and animation */
-.blog-list-item {
-  transition: transform 0.3s ease-in-out, border-radius 0.3s ease-in-out;
-  transform-origin: center center;
-  border-radius: 0;
-  animation: fade-in 0.5s ease forwards;
-  will-change: transform, border-radius;
-}
-
-.blog-list-item:hover,
-.blog-list-item:focus-within {
-  transform: scale(1.02);
-  border-radius: 0.5rem; /* rounded-lg */
-  z-index: 1;
-}
-
-/* Responsive grid columns */
 @media (min-width: 640px) {
   .blog-list-grid {
-    grid-template-columns: repeat(2, 1fr); /* sm:grid-cols-2 */
+    grid-template-columns: repeat(2, 1fr); 
   }
 }
 
 @media (min-width: 1024px) {
   .blog-list-grid {
-    grid-template-columns: repeat(3, 1fr); /* lg:grid-cols-3 */
+    grid-template-columns: repeat(3, 1fr); 
   }
+  .blog-list-grid1 {
+    grid-template-columns: repeat(2, 1fr); 
+  }
+}
+
+
+/* Blog card hover effect */
+.blog-list-item:hover,
+.blog-list-item:focus-within {
+  transform: translateY(-4px);
+  border-radius: 0.5rem;
+  z-index: 1;
+}
+.blog-list-item1:hover,
+.blog-list-item1:focus-within {
+  transform: translateY(-4px);
+  border-radius: 0.5rem; 
+  z-index: 1;
 }
 
 /* Simple fade-in animation */

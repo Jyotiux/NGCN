@@ -1,35 +1,29 @@
 import { useParams, Link } from "react-router-dom";
 import blogsData from "../../db/blogs.json";
+import featuredData from "../../db/featured.json";
 import ReactMarkdown from "react-markdown";
 import { useEffect } from "react";
-import "./BlogPost.css"; // Import the CSS file
+import "./BlogPost.css";
 
 const BlogPost = () => {
   const { id } = useParams();
-  const blog = blogsData.find((b) => b.id === Number(id));
+
+  // Combine both blog sources
+  const allBlogs = [...blogsData, ...featuredData];
+  const blog = allBlogs.find((b) => b.id === Number(id));
 
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
 
   if (!blog) {
-    return (
-      <div className="not-found">
-        Blog not found.
-      </div>
-    );
+    return <div className="not-found">Blog not found.</div>;
   }
 
   const markdownComponents = {
-    h1: ({ node, ...props }) => (
-      <h1 className="markdown-h1" {...props} />
-    ),
-    h2: ({ node, ...props }) => (
-      <h2 className="markdown-h2" {...props} />
-    ),
-    p: ({ node, ...props }) => (
-      <p className="markdown-p" {...props} />
-    ),
+    h1: ({ node, ...props }) => <h1 className="markdown-h1" {...props} />,
+    h2: ({ node, ...props }) => <h2 className="markdown-h2" {...props} />,
+    p: ({ node, ...props }) => <p className="markdown-p" {...props} />,
     a: ({ node, ...props }) => (
       <a
         className="markdown-link"
@@ -54,16 +48,11 @@ const BlogPost = () => {
           </p>
         </header>
 
-<div className="image-container">
-
         {blog.image && (
-          <img
-            src={blog.image}
-            alt={blog.title}
-            className="post-image"
-          />
+          <div className="image-container">
+            <img src={blog.image} alt={blog.title} className="post-image" />
+          </div>
         )}
-</div>
 
         <ReactMarkdown components={markdownComponents}>
           {blog.content}

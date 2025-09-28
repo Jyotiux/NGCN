@@ -1,0 +1,23 @@
+[{
+  "id": 1,
+  "title": "Enhanced Stock Portfolio Selection Using VMD-Based IMF Generation and Hypergraph-Based Reinforcement Learning",
+  "excerpt": "Enhanced Stock Portfolio Selection Using VMD-Based IMF Generation and Hypergraph-Based RL.",
+  "content": "Neeli Venkata Siva, an M.Tech student in Artificial Intelligence and Data Science at IIITDM, Kurnool, brings a unique perspective with his qualifications in finance and technology. With an MBA in Finance, a Postgraduate Diploma in Banking and Finance, CAIIB certification, and UGC NET qualification in Management, he blends academic depth with hands-on banking experience. As an Assistant Manager, Siva managed credit portfolios and conducted advanced financial analysis. He now channels his skills into AI research, focusing on applying machine learning to finance, including predictive modeling and data visualization, using a tech stack of Python, MERN, and Power BI.",
+  "thumbnail": "https://res.cloudinary.com/dot6dzqn6/image/upload/v1749234507/b2p2_qgzc4y.jpg",
+  "image": "https://ngcn-iiitdmk.netlify.app/static/b2p1.png",
+  "category": "Finance",
+  "author": "Neeli Venkata Siva",
+  "date": "January 15, 2024"
+},
+{
+  "id": 2,
+  "title": "Implementation of MIMO and Beamforming Technique in 6G THz Communication",
+  "excerpt": "Our research focuses on improving Terahertz (THz) communication for future 6G networks using beamforming and MIMO techniques.",
+  "content": "Our research focuses on improving Terahertz (THz) communication for future 6G networks. We use real-world environmental modeling to examine how different environments influence THz signal behavior. This understanding is critical for developing systems that work effectively in various settings, such as urban areas or humid open spaces.\n\nWe also utilize beamforming techniques to direct signals more precisely to specific receivers, enhancing signal strength and quality. Additionally, we employ massive Multi-Input Multi-Output (MIMO) techniques, using multiple antennas to improve data transmission capacity and reliability. Initial results show that these strategies promote effective signal transmission with low latency, paving the way for faster, more reliable communication in 6G networks.",
+  "thumbnail": "https://lh3.googleusercontent.com/aida-public/AB6AXuDCXYl7BPYIQypj65144KB_XyecvQEjIh--zbMPQKDwZL80pAnbqz4eBxYUBtxjJcK0xlAY47RNNqSgcTptGbiodLuVwAE8o99fKjniW_WGhJVrld6N3n6qDCjJlHYWbaKdNb49uF1ktjXvxOyWHItgnhwb9kCdAauE-K4-A6yDaf3n2r5MOIGtUDRXwwbAk76TWuhabOwmHD-I0O2PCcRM0bWSv2FbcmDRV7c1pgX7BLEDr1mkrbLgOhKoeZz_Txr0m41A_8nCj89j",
+  "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuDCXYl7BPYIQypj65144KB_XyecvQEjIh--zbMPQKDwZL80pAnbqz4eBxYUBtxjJcK0xlAY47RNNqSgcTptGbiodLuVwAE8o99fKjniW_WGhJVrld6N3n6qDCjJlHYWbaKdNb49uF1ktjXvxOyWHItgnhwb9kCdAauE-K4-A6yDaf3n2r5MOIGtUDRXwwbAk76TWuhabOwmHD-I0O2PCcRM0bWSv2FbcmDRV7c1pgX7BLEDr1mkrbLgOhKoeZz_Txr0m41A_8nCj89j",
+  "category": "6G Communication",
+  "author": "Pathlavath Mukesh & Ayush Kant",
+  "date": "January 15, 2024"
+}
+]

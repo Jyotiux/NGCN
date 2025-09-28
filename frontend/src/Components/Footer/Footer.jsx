@@ -14,27 +14,56 @@ const Footer = () => {
   return (
     <footer className={styles.footer}>
       <div className={styles.description}>
-        <img
-          src="/NGCNLogo.png"
-          alt="Logo"
-          className={styles.logo}
-        />
+        <img src="/NGCNLogo.png" alt="Logo" className={styles.logo} />
         <p>
-          NGCN is a research group focused on advancing the state-of-the-art in computing and networking technologies.
+          NGCN is a research group focused on advancing the state-of-the-art in
+          computing and networking technologies.
         </p>
       </div>
 
       <nav className={styles.navigation}>
         <h4>Quick Links</h4>
         <ul>
-                <li><Link to="/"><p>Home</p></Link></li>
-                <li><Link to="/Research"><p>Research</p></Link></li>
-                <li><Link to="/Publications"><p>Publications</p></Link></li>
-                <li><Link to="/People"><p>People</p></Link></li>
-                <li><Link to="/Gallery"><p>Gallery</p></Link></li>
-                <li><Link to="/blogs"><p>Blog</p></Link></li>
-                <li><Link to="/contact"><p>Contact</p></Link></li>
-                <li><Link to="/about"><p>About Us</p></Link></li>
+          <li>
+            <Link to="/">
+              <p>Home</p>
+            </Link>
+          </li>
+          <li>
+            <Link to="/Research">
+              <p>Research</p>
+            </Link>
+          </li>
+          <li>
+            <Link to="/Publications">
+              <p>Publications</p>
+            </Link>
+          </li>
+          <li>
+            <Link to="/People">
+              <p>People</p>
+            </Link>
+          </li>
+          <li>
+            <Link to="/Gallery">
+              <p>Gallery</p>
+            </Link>
+          </li>
+          <li>
+            <Link to="/blogs">
+              <p>Blog</p>
+            </Link>
+          </li>
+          <li>
+            <Link to="/contact">
+              <p>Contact</p>
+            </Link>
+          </li>
+          <li>
+            <Link to="/about">
+              <p>About Us</p>
+            </Link>
+          </li>
         </ul>
       </nav>
 
@@ -42,38 +71,77 @@ const Footer = () => {
         <h4>Contact Us</h4>
         <ul>
           {/* // Updated contact details */}
-          <li><p>📍 IIITDM Kurnool, Andhra Pradesh</p></li>
-          <li><p>📧 ngcngroup@gmail.com</p></li>
-          <li><p>📧 computinglab@iiitk.ac.in</p></li>
-          <li><p>📧 ngcnresearchgroup@iiitk.ac.in</p></li>
+          <li>
+            <p>📍 IIITDM Kurnool, Andhra Pradesh</p>
+          </li>
+          <li>
+            <p>📧 ngcngroup@gmail.com</p>
+          </li>
         </ul>
       </div>
 
       <div className={styles.socialMedia}>
         <h4>Follow Us</h4>
         <ul>
-          <li><a href="https://www.linkedin.com/company/next-gen-computing-and-networking-ngcn/posts/?feedView=all" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
-          <li><a href="https://x.com/NGCN_Group" target="_blank" rel="noopener noreferrer">Twitter</a></li>
-          <li><a href="https://www.instagram.com/ngcngroup" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+          <li>
+            <a
+              href="https://www.linkedin.com/company/next-gen-computing-and-networking-ngcn/posts/?feedView=all"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              LinkedIn
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://x.com/NGCN_Group"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Twitter
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.instagram.com/ngcngroup"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Instagram
+            </a>
+          </li>
         </ul>
       </div>
-      
+
       <div className={styles.newsletter}>
         <h4>Join Our Newsletter</h4>
         <p>Get updates on new products and special offers!</p>
         <div className={styles.newsletterForm}>
           {/* You can reuse your InputBox and Button components here */}
-          <input type="email" placeholder="Enter your email" className={styles.newsletterInput} />
+          <input
+            type="email"
+            placeholder="Enter your email"
+            className={styles.newsletterInput}
+          />
           <button className={styles.newsletterButton}>Subscribe</button>
         </div>
       </div>
 
       <div className={styles.copyright}>
-        <p>Copyright © 2022 NGCN. All Rights Reserved.</p>
-        <div className={styles.legalLinks}>
-          <a href="/terms">Terms & Conditions</a>
+        <p>Copyright © 2024 NGCN. All Rights Reserved.</p>
+        {/* <div className={styles.legalLinks}> */}
+          {/* <a href="/terms">Terms & Conditions</a>
           <span>|</span>
-          <a href="/privacy">Privacy Policy</a>
+          <a href="/privacy">Privacy Policy</a> */}
+        {/* </div> */}
+        <div>
+          <p class="footer-credits">
+            Made with ❤️ by
+            <a href="mailto:vishwajeetsingh1567@gmail.com"> Vishwajeet, </a>
+            <a href="mailto:shashwatp108@gmail.com">Shashwat, </a>
+            <a href="mailto:purvi41493842@gmail.com">Jyoti </a>&
+            <a href="mailto:aadityagautam010@gmail.com"> Aaditya </a>
+          </p>
         </div>
       </div>
     </footer>

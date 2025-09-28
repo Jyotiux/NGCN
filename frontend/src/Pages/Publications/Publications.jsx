@@ -4,7 +4,7 @@ import pub from '../../db/publications.json';
 import styles from './Publications.module.css';
 
 function Publications() {
-    // ... (all the existing state and filtering logic remains the same)
+    
     const [searchQuery, setSearchQuery] = useState('');
 
     const filteredPubs = pub.filter(card => {
