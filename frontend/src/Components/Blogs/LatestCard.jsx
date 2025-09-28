@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
-import "./BlogCard.css";
-const BlogCard = ({ blog }) => {
+import "./LatestCard.css";
+const LatestCard = ({ blog }) => {
   return (
     <Link to={`/blogs/${blog.id}`} className="blog-card-link" aria-label={`Read blog: ${blog.title}`}>
       <div className="blog-card">
@@ -35,4 +35,4 @@ const BlogCard = ({ blog }) => {
   );
 };
 
-export default BlogCard;
+export default LatestCard;
