@@ -129,17 +129,19 @@ const Footer = () => {
 
       <div className={styles.copyright}>
         <p>Copyright © 2024 NGCN. All Rights Reserved.</p>
-        <div className={styles.legalLinks}>
-          <p class="footer-credits">
-            Made with ❤️ by
-            <a href="mailto:vishwajeetsingh1567@gmail.com">Vishwajeet,</a>
-            <a href="mailto:shashwatp108@gmail.com">Shashwat,</a>
-            <a href="mailto:purvi41493842@gmail.com">Jyoti</a>&
-            <a href="mailto:aadityagautam010@gmail.com">Aaditya</a>
-          </p>
+        {/* <div className={styles.legalLinks}> */}
           {/* <a href="/terms">Terms & Conditions</a>
           <span>|</span>
           <a href="/privacy">Privacy Policy</a> */}
+        {/* </div> */}
+        <div>
+          <p class="footer-credits">
+            Made with ❤️ by
+            <a href="mailto:vishwajeetsingh1567@gmail.com"> Vishwajeet, </a>
+            <a href="mailto:shashwatp108@gmail.com">Shashwat, </a>
+            <a href="mailto:purvi41493842@gmail.com">Jyoti </a>&
+            <a href="mailto:aadityagautam010@gmail.com"> Aaditya </a>
+          </p>
         </div>
       </div>
     </footer>

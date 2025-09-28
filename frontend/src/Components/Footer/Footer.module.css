@@ -206,6 +206,6 @@ strong {
 }
 
 .footer-credits a {
-  margin: 0 0.5rem;      /* Resets margin */
+  margin: 0;      /* Resets margin */
   padding: 0;     /* Resets padding */
 }
