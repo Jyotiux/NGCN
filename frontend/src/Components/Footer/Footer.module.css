@@ -199,3 +199,13 @@ strong {
     max-width: 350px;
   }
 }
+
+/* A stronger rule to reset all spacing */
+.footer-credits {
+  word-spacing: 0; /* Resets abnormal spacing between "words" */
+}
+
+.footer-credits a {
+  margin: 0;      /* Resets margin */
+  padding: 0;     /* Resets padding */
+}
