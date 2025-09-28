@@ -34,6 +34,7 @@ function Publications() {
             <div className={styles.block1}>
                 <h1>Publications</h1>
                 <p>Peer-reviewed research papers and scholarly contributions to the scientific community</p>
+                </div>
                 <div className={styles.search}>
                     <img src="search.svg" alt="Search Icon" className={styles.searchIcon} />
                     <input
@@ -44,7 +45,7 @@ function Publications() {
                         onChange={(e) => setSearchQuery(e.target.value)}
                     />
                 </div>
-            </div>
+
 
             <div className={styles.pubContainer}>
                 {sortedYears.map(year => (
